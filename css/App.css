@@ -191,6 +191,12 @@ body{
   background-color: rgb(0, 0, 79);
 }
 
+.status-bg{
+  background-image: url(../Assets/images/photo3.jpg);
+  background-size: cover;
+  background-position: 0;
+}
+
 
 
 .cards:hover{
