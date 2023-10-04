@@ -11,6 +11,8 @@ function scrollFunction() {
         document.getElementById("navbar").classList.add("scrolled");
         myElement.classList.add("scrolled1");
         myElement.classList.remove("scrolled2");
+        toggle.classList.add("scrolled3");
+        toggle.classList.remove("scrolled4");
         logo1.classList.add("hidden");
         logo1.classList.remove("block");
         logo2.classList.add("block");
@@ -19,6 +21,8 @@ function scrollFunction() {
         document.getElementById("navbar").classList.remove("scrolled");
         myElement.classList.remove("scrolled1");
         myElement.classList.add("scrolled2");
+        toggle.classList.remove("scrolled4");
+        toggle.classList.add("scrolled3");
         logo1.classList.add("block");
         logo1.classList.remove("hidden");
         logo2.classList.add("hidden");
