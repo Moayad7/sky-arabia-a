@@ -209,10 +209,31 @@ body{
 .status-bg{
   background-image: url(../Assets/images/photo3.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 0;
 }
 
+.service1{
+  background-image: url(../Assets/images/services1.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+.service2{
+  background-image: url(../Assets/images/services2.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
 
+.service3{
+  background-image: url(../Assets/images/services3.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+.service4{
+  background-image: url(../Assets/images/services4.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
 
 .cards:hover{
   transform: translateY(-10px);
