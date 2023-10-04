@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/App.css" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <title>Sky Al-arabia</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <!-- Navbar logo -->
+          <div class="flex-shrink-0 w-36">
+            <a href="#" class="text-white text-xl font-bold" id="logo">
+              <img src="Assets/sky logo-02.png" alt="" id="logo2" />
+              <img src="Assets/sky logo-03.png" alt="" id="logo1" />
+            </a>
+          </div>
+
+          <!-- Navbar links -->
+          <div class="text-[#fff]">
+            <ul
+              class="flex flex-col md:flex-row duration-500 md:pr-14 py-10 md:flex z-[1] md:z-auto absolute md:static bg-gradient-to-t from-[#063380] via-[#063380] to-[#063355] md:bg-gradient-to-t md:from-[#00000000] w-80 h-screen md:h-auto left-0 md:w-auto md:py-0 py-10 text-center md:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
+              id="link"
+            >
+              <a
+                href="index.html"
+                class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                id=""
+                >Home</a
+              >
+              <a
+                href="#"
+                class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                id=""
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                id=""
+                >Our Services</a
+              >
+              <a
+                href="#"
+                class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                id=""
+                >Our Projects</a
+              >
+              <a
+                href="#"
+                class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                id=""
+                >Contact Us</a
+              >
+            </ul>
+          </div>
+
+          <div class="blocked md:hidden flex justify-between items-center">
+            <span class="text-3xl cursor-pointer mx-2 text-slate-50">
+              <ion-icon
+                name="menu"
+                id="navbar-toggler"
+                class="transition-all ease-in duration-500"
+              ></ion-icon>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="">
+      <div class="background">
+        <div
+          class="w-100 h-full flex flex-col justify-center items-center bg-[#063380aa]"
+        >
+          <div
+            class="container px-16 mx-auto w-100 h-full flex flex-col justify-center items-center text-start"
+          >
+            <h1
+              class="text-[#fff] text-4xl md:text-6xl lg:text-8xl font-black"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Sky Al-arabia<span class="text-[#058ecc]"> Company</span>
+            </h1>
+            <h1
+              class="text-[#fff] text-xl lg:text-4xl pb-4 md:text-justify border-b-2 border-[#fff]"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              We have a passion for what we do, and for being the best in the
+              industry.
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- {/* kings say */} -->
+
+      <div class="p-5 w-full flex justify-center items-center">
+        <div
+          class="gap-5 grid grid-cols-1 sm:grid-cols-2 justify-center items-center py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="items-center justify-center grid grid-col-1 py-2">
+            <img
+              src="Assets/images/king.png"
+              alt=""
+              class="p-4 lg:p-16 rounded-5"
+            />
+          </div>
+          <div
+            class="text-start flex-col flex justify-center items-center py-2"
+          >
+            <p class="text-slate-800 text-xl md:text-3xl p-4 md:text-justify">
+              Your country is witnessing a comprehensive and sustainable
+              development movement and is awaiting the second phase of Vision
+              2030, targeting the promising and new development of tomorrow that
+              supports local content.
+            </p>
+            <img src="Assets/images/king (1).png" alt="" class="w-80" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-slate-300">
+        <div
+          class="p-5 w-full flex justify-center items-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            class="gap-5 grid grid-cols-1 sm:grid-cols-2 justify-center items-center py-5"
+          >
+            <div
+              class="items-center order-1 justify-center grid grid-col-1 py-2"
+            >
+              <img
+                src="Assets/images/mbs.jpg"
+                alt=""
+                class="p-4 lg:p-16 rounded-5"
+              />
+            </div>
+            <div
+              class="text-start flex-col flex justify-center items-center py-2"
+            >
+              <p class="text-slate-800 text-xl md:text-3xl p-4 md:text-justify">
+                We possess all the factors that enable us to achieve our goals
+                together, and there is no excuse for any of us to remain in our
+                place, or to retreat, God forbid.
+              </p>
+              <img src="Assets/images/prince.png" alt="" class="w-80" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- {/* mission & vision */} -->
+
+      <div class="w-full justify-center flex mt-16 mx-auto container">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cos-2 lg:grid-cols-4"
+        >
+          <div class="order-1 w-80 h-80 bg-slate-200"
+          data-aos="fade-right"
+        data-aos-duration="300">
+            <h3
+              class="w-full h-full flex justify-center items-center bg-[#063380] text-blue-50 text-3xl"
+              >
+              Mission
+            </h3>
+          </div>
+          <div
+            class="order-2 w-80 h-80 bg-slate-200 h-full flex justify-center items-center overflow-hidden"
+            data-aos="fade-left"
+            data-aos-duration="300">
+            <h3 class="text-[#063380] p-3 bold md:text-justify">
+              We aspire to be the recognized leader in the construction
+              industry, committed to building infrastructure, power, and
+              industrial projects across Kingdom of Saudi Arabia. We strive
+              always to provide the highest value to our owners, customers, and
+              community with a critical eye towards safety, quality, and
+              service.
+            </h3>
+          </div>
+          <div
+            class="photo-3 w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-down"
+            data-aos-duration="300">
+            <div class="bg-mission h-full w-full">
+              <div
+                class="w-full h-full bg-3 flex justify-center items-center relative"
+              >
+                <div
+                  class="w-full h-full absolute bg-dark1 bg-opacity opacity-50"
+                ></div>
+                <button
+                  class="text-slate-50 p-2 rounded border border-slate-50 hover:bg-slate-800 absolute z-5 btn-2"
+                >
+                  Our Projects
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full justify-center flex mx-auto container mb-16">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cos-2 lg:grid-cols-4"
+        >
+          <div class="w-80 h-80 bg-slate-200" data-aos="fade-right" data-aos-duration="300">
+            <h3
+              class="w-full h-full flex justify-center items-center bg-[#063380] text-blue-50 text-3xl"
+            >
+              Vision
+            </h3>
+          </div>
+          <div
+            class="w-80 h-80 bg-slate-200 h-full flex justify-center items-center overflow-hidden"
+            data-aos="fade-left" data-aos-duration="300"
+          >
+            <h3 class="text-[#063380] p-3 md:text-justify" >
+              To grow our organization through investigating advancing
+              technology, industry changes and the varying needs of our
+              clientele as the industry evolves. We will continuously diversify
+              our skill set to distinguish us from our competition and foster
+              loyal customers as we build infr astructure and energy projects
+              that improve the quality of life in Kingdom of Saudi Arabia.
+            </h3>
+          </div>
+          <div
+            class="photo-3 w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-up" data-aos-duration="300" >
+            <div class="bg-vision h-full w-full relative">
+              <div
+                class="w-full h-full absolute bg-dark1 bg-opacity opacity-50"
+              ></div>
+              <div
+                class="h-full w-full bg-3 flex justify-center items-center relative"
+              >
+                <button
+                  class="text-slate-50 p-2 rounded border border-slate-50 hover:bg-slate-800 absolute z-5 btn-2"
+                >
+                  Our Projects
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- {/* services */} -->
+
+      <div class="flex justify-center bg-slate-100 py-5">
+        <div class="container">
+          <div class="" data-aos="fade-down"
+          data-aos-duration="300">
+            <h1 class="my-4 text-4xl text-center">Services</h1>
+          </div>
+          <div
+            class="p-4 text-start grid xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-x-5"
+          >
+            <div
+              class="cards h-80 my-4 shadow p-10 bg-blue-50 text-slate-800 hover:bg-[#063380] hover:text-slate-50 flex flex-col items-between justify-between"
+              data-aos="fade-right"
+              data-aos-duration="300">
+              <div class="card-title">
+                <h3 class="text-xl lg:text-4xl">General Contracting</h3>
+              </div>
+              <p class="text-sm lg:text-xl md:text-justify">
+                Civil Contractors is dedicated to producing quality civil
+                construction works for the residential commercial and
+                infrastructure sectors, whereas maintain the highest level of
+                integrity at all levels of project.
+              </p>
+              <div class="card-btn cursor-pointer">
+                <button class="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+            <div
+              class="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-[#063380] hover:bg-slate-800 hover:text-blue-50"
+              data-aos="fade-left"
+              data-aos-duration="300"
+            >
+              <div class="card-title">
+                <h3 class="text-xl lg:text-4xl">Steel Fabrication</h3>
+              </div>
+              <p class="text-sm lg:text-xl md:text-justify">
+                Sky Alarabia owns a steel fabrication facility in Jubail light
+                industrial area with all the required machines and allotted area
+                for sandblasting and painting to fulfill and cater clients under
+                one roof.
+              </p>
+              <div class="card-btn cursor-pointer">
+                <button class="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+            <div
+              class="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-[#063380] hover:bg-slate-800 hover:text-blue-50"
+              data-aos="fade-right"
+              data-aos-duration="300"
+            >
+              <div class="card-title">
+                <i>&#xf4df;</i>
+                <h3 class="text-xl lg:text-4xl">Transportation</h3>
+              </div>
+              <p class="text-sm lg:text-xl md:text-justify">
+                “Sky Alarabia Contracting Company”– transportation is 100% Saudi
+                owned company founded in 1997 with only four trucks serving the
+                local market.
+              </p>
+              <div class="card-btn cursor-pointer">
+                <button class="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+            <div
+              class="cards h-80 w-full my-4 p-10 shadow bg-blue-50 text-slate-800 hover:bg-[#063380] hover:text-slate-50 flex flex-col items-between justify-between"
+              data-aos="fade-left"
+              data-aos-duration="300"
+            >
+              <div class="card-title">
+                <h3 class="text-xl lg:text-4xl">
+                  Mechanical and Electrical Services
+                </h3>
+              </div>
+              <p class="text-sm lg:text-xl md:text-justify">
+                “Sky Alarabia Contracting Company” gives full-service of
+                mechanical and electrical to commercial and industrial
+                customers. We have established a quality-driven reputation of
+                providing unparalleled design.
+              </p>
+              <div class="card-btn cursor-pointer">
+                <button class="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- {/* projects */} -->
+      <div class="py-5 container-fluid">
+        <div class="py-5" data-aos="fade-down"
+        data-aos-duration="300">
+          <h2 class="text-4xl text-center">Projects</h2>
+        </div>
+        <div
+          class="p-4 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4"
+        >
+          <div class="proj-card w-full" data-aos="fade-right"
+          data-aos-duration="300">
+            <div class="proj-pic1 flex relative items-end">
+              <h3
+                class="proj-title text-[#063380] absolute text-center w-full lg:text-3xl bg-slate-50 mb-0 py-2"
+              >
+                Cleaning and Demolition of 3 Abandoned Tanks
+              </h3>
+            </div>
+          </div>
+          <div class="proj-card" data-aos="fade-left"
+          data-aos-duration="300">
+            <div class="proj-pic2 flex items-end relative">
+              <h3
+                class="proj-title text-[#063380] absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2"
+              >
+                Najran University
+              </h3>
+            </div>
+          </div>
+          <div class="proj-card" data-aos="fade-right"
+          data-aos-duration="300">
+            <div class="proj-pic3 flex items-end relative">
+              <h3
+                class="proj-title text-[#063380] absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2"
+              >
+                SFC- AFK MONORAIL HOISTS REPAIRING
+              </h3>
+            </div>
+          </div>
+          <div class="proj-card" data-aos="fade-left"
+          data-aos-duration="300">
+            <div class="proj-pic4 flex items-end relative">
+              <h3
+                class="proj-title text-[#063380] absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2"
+              >
+                Ministry of Interior Police
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="py-5">
+          <button class="w-full text-[#063380] text-2xl text-center">
+            See All Projects
+          </button>
+        </div>
+      </div>
+
+      <!-- {/* *************** */} -->
+      <div
+        class="bg-[#063380] sm:text-start md:text-start lg:text-start relative text-slate-50 p-10"
+      >
+        <!-- {/* <div class="bg-[#063380] absolute w-full h-full"></div> */} -->
+        <div class="">
+          <div class="grid lg:grid-cols-3">
+            <div
+              class="col-span-2 container grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 py-5"
+              data-aos="fade-down"
+              data-aos-duration="300">
+              <h3
+                class="py-5 col-span-1 sm:col-span-3 md:col-span-3 lg:col-span-3 text-3xl"
+              >
+                We always strive to be the first and preferred choice
+              </h3>
+
+              <div data-aos="fade-up"
+              data-aos-duration="300">
+                <h3 class="text-[#058ecc] text-3xl lg:text-7xl">17</h3>
+                <p class="text-xl">Our Projects</p>
+              </div >
+              <div data-aos="fade-up"
+              data-aos-duration="300">
+                <h3 class="text-[#058ecc] text-3xl lg:text-7xl">10</h3>
+                <p class="text-xl">Our Clients</p>
+              </div>
+              <div data-aos="fade-up"
+              data-aos-duration="300">
+                <h3 class="text-[#058ecc] text-3xl lg:text-7xl">3</h3>
+                <p class="text-xl">Experince</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-5">
+        <!-- Container for demo purpose -->
+        <div class="container my-24 mx-auto md:px-6">
+          <!-- Section: Design Block -->
+          <section class="mb-32 text-center grid grid-cols-1 md:grid-cols-2">
+            <div class="mx-5 max-w-[700px] md:px-3">
+              <h2 class="mb-12 text-3xl font-bold text-[#063380]" data-aos="fade-down"
+              data-aos-duration="300">
+                Contact us
+              </h2>
+              <form data-aos="fade-down"
+              data-aos-duration="800">
+                <div class="relative mb-6" data-te-input-wrapper-init>
+                  <input
+                    type="text"
+                    class="border-b-2 border-[#063380] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
+                    id="exampleInput90"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="relative mb-6" data-te-input-wrapper-init>
+                  <input
+                    type="email"
+                    class="border-b-2 border-[#063380] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
+                    id="exampleInput91"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="relative mb-6" data-te-input-wrapper-init>
+                  <textarea
+                    class="border-b-2 border-[#063380] block h-60 w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-6 inline-block w-full rounded bg-[#063380] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+            <div class="w-full justify-center" data-aos="fade-left"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15212.979956860305!2d44.3467141!3d17.5910976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15fed9a5f4b40a9d%3A0x92d1806b7796bc93!2z2LPZg9in2Yog2KfZhNi52LHYqNmK2Kkg2YTZhNmF2YLYp9mI2YTYp9iq!5e0!3m2!1sar!2s!4v1696284825776!5m2!1sar!2s"
+                height="450"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-full"
+              ></iframe>
+            </div>
+          </section>
+          <!-- Section: Design Block -->
+        </div>
+        <!-- Container for demo purpose -->
+      </div>
+
+      <!-- {/* <Footer /> */} -->
+
+      <footer>
+        <div class="bg-gradient-to-t from-[#063380] to-[#063355] py-10 px-10">
+    
+            <div class="container mx-auto">
+            
+              <div class="grid grid-cols-1 gap-5 lg:grid-cols-5  justify-center lg:text-start">
+                
+              <div class="link order-1 text-slate-500 flex justify-center w-100 py-5">
+                  
+                  <div class="">
+                  <img src="Assets/sky logo-03.png" alt="" />
+                  </div>
+                </div>
+                <div class="order-2 flex flex-col px-5 ">
+                  <h3 class="text-blue-50 text-4xl pb-3 font-black">visit</h3>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Home</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">About</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Projects</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Contact</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Privacy</a>
+                </div>
+                <div class="order-3 flex flex-col px-5 ">
+                <h3 class="text-blue-50 text-4xl pb-3 font-black">Services</h3>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">General Contracting</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Steel Fabrication</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Transportation</a>
+                  <a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">Mechanical and Electrical Services</a>
+                </div>
+                <div class="order-4 flex flex-col px-5 ">
+                  <h3 class="text-blue-50 text-4xl pb-3 font-black">Contact</h3>
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <div class="">
+                    <h4 class="text-xl text-[#eee] font-bold">Dammam Head Office</h4>
+                  <div><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">King Fahad Road, Dammam, KSA</a></div>
+                  <div><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">013821-0276</a></div>
+                  <div class="pb-3"><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">013-821-1938</a></div>
+                  
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="lg:pt-16 order-5 h-full px-5">
+                    <h4 class="text-xl text-[#eee] font-bold">Ibn Haiyan Road - Najran - Industrial Area</h4>
+                  <div><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">King Fahad Road, Dammam, KSA</a></div>
+                  <div><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50"> (+966) 017 – 523 - 0123</a></div>
+                  <div><a href="#" class="  text-lg text-[#058ecc] no-underline hover:text-slate-50">(+966) 0505726627</a></div>
+                    </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

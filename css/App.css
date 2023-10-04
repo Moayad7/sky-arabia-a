@@ -1,0 +1,452 @@
+.App {
+  text-align: center;
+}
+
+body{
+  
+}
+
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px; /* adjust based on your preference */
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out; /* add transition effect */
+  z-index: 9999;
+}
+
+/* Add a class to change the background color on scroll */
+.navbar.scrolled {
+  background-color: #f5f5f5; /* change to your desired color */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.scrolled1{
+  color: #063380;
+}
+.scrolled2{
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
+.background {
+  background-image: url(../Assets/images/1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.btn-2 {
+  opacity: 1;
+  bottom:50px;
+  left: 50px;
+  transition: all 0.3s ease-out 0s;
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  .photo-3:hover {
+    .btn-2 {
+      opacity: 1;
+      bottom: 50px;
+      left: 50px;
+      transition: all 0.3s ease-out 0s;
+  
+    }
+  
+    .bg-mission {
+      /* transform: scale(1.1); */
+      background-position: 70% 50%;
+      transition: all 0.3s ease-out 0s;
+    }
+    .bg-vision {
+      /* transform: scale(1.1); */
+      background-position: 30% 50%;
+      transition: all 0.3s ease-out 0s;
+    }
+    .bg-dark1 {
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      transition: all 0.3s ease-out 0s;
+  
+    }
+    
+  }
+  
+  .btn-2 {
+    opacity: 0;
+    bottom:0px;
+    left: 50px;
+    transition: all 0.3s ease-out 0s;
+  
+  }
+
+}
+
+@media screen and (min-width: 991px) {
+  .nav-item-hover {
+    color: white;
+    transition: all 0.3s ease-out 0s;
+  }
+
+
+
+  .d-4-2 {
+    height: 200px;
+    width: 400px;
+  }
+
+  .h-200 {
+    height: 200px;
+    width: 200px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 991px) {
+  .nav-bg {
+    background-color: white;
+    padding: 30px;
+  }
+
+
+  .navbar-collapse {
+    padding: 20px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transition: all 0.3s ease-out 0s;
+    z-index: 99;
+    border-radius: 10px;
+  }
+
+  .d-400 {
+    height: 400px;
+    width: 400px;
+  }
+
+}
+
+
+.bg-mission{
+  background-image: url(../Assets/images/photo3.jpg);
+  background-position: 30% 50%;
+}
+
+.bg-vision{
+  background-image: url(../Assets/images/photo4.webp);
+  background-position: 70% 50%;
+}
+
+.bg-dark1 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.bg-darkblue{
+  background-color: rgb(0, 0, 79);
+}
+
+
+
+.cards:hover{
+  transform: translateY(-10px);
+  transition: all 0.3s ease-out 0s;
+  z-index: 0;
+}
+
+.proj-card{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 991px) {
+  .proj-card{
+    height: 600px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  
+.proj-title{
+  opacity: 0;
+  bottom: -10px;
+  transition: all 0.3s ease-in 0.3s;
+  }
+  
+  .proj-card:hover{
+    .proj-title{
+      opacity: 1;
+      bottom: 0;
+    }
+    transform: scale(0.9);
+    transition: all 0.3s ease-out 0s;
+  }
+  
+}
+.proj-pic1{
+  background-image: url(../Assets/images/project1.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.proj-pic2{
+  background-image: url(../Assets/images/project2.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.proj-pic3{
+  background-image: url(../Assets/images/project3.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.proj-pic4{
+  background-image: url(../Assets/images/project4.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.bg-status{
+  background-image: url(../Assets/images/project2.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.zindex{
+  z-index:99;
+}
+
+.bg-slate{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-slate-light{
+  background-color: rgba(255,255,255,0.85);
+}
+
+.bg-blue-dark{
+  background-color: rgba(0, 26, 92, 0.708);
+}
+
+.bg-blue:hover{
+  background-color: rgba(0, 26, 92, 0.708);
+}
+
+/* about */
+
+.about-bg{
+  background-image: url(../Assets/images/about1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.vision{
+  background-image: url(Assets/images/about1.jpeg);
+  background-position: 0 50%;
+  background-size: 100%;
+
+}
+
+.vision:hover{
+  background-size: 150%;
+}
+
+
+.mission{
+  background-image: url(Assets/images/about2.jpg);
+  background-position: 0 50%;
+  background-size: 120%;
+
+}
+
+.mission:hover{
+  background-size: 150%;
+}
+
+@media screen and (max-width:991px) {
+  .vision{
+    background-size: cover;
+  }
+  .vision:hover{
+    background-size: cover;
+  }
+  .mission{
+    background-size: cover;
+  }
+  .mission:hover{
+    background-size: cover;
+  }
+}
+
+.brief{
+  background-image: url(../Assets/images/about4.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.chairmen{
+  background-image: url(../Assets/images/about3.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.ourServices{
+  background-image: url(../Assets/images/about5.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.why{
+  background-image: url(../Assets/images/about6.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+
+.services-bg{
+  background-image: url(../Assets/images/civil1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 70%;
+}
+
+.service-btn{
+  opacity: 0;
+}
+
+.civil-bg{
+  background-image: url(../Assets/images/civil2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.steal-bg{
+  background-image: url(../Assets/images/services2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.transport-bg{
+  background-image: url(../Assets/images/services3.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.elect-bg{
+  background-image: url(../Assets/images/services4.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.service1-bg{
+  background-image: url(../Assets/images/civil2.jpg);
+  background-position: 0 50%;
+  background-size: 150%;
+}
+.service2-bg{
+  background-image: url(../Assets/images/services2.jpg);
+  background-position: 0 50%;
+  background-size: 150%;
+}
+.service3-bg{
+  background-image: url(../Assets/images/services3.jpg);
+  background-position: 0 50%;
+  background-size: 150%;
+}
+.service4-bg{
+  background-image: url(../Assets/images/services4.jpg);
+  background-position: 0 50%;
+  background-size: 150%;
+}
+.service1-bg:hover{
+  .service-btn{
+    opacity: 1;
+  }
+  background-position: 50% 50%;
+}
+.service2-bg:hover{
+  .service-btn{
+    opacity: 1;
+  }
+  background-position: 50% 50%;
+}
+.service3-bg:hover{
+  .service-btn{
+    opacity: 1;
+  }
+  background-position: 50% 50%;
+}
+.service4-bg:hover{
+  .service-btn{
+    opacity: 1;
+  }
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width:768px) {
+  .service-btn{
+    opacity: 1;
+  }
+}
