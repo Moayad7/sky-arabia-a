@@ -33,6 +33,12 @@ body{
 .scrolled2{
   color: #fff;
 }
+.scrolled3{
+  color: #282c34;
+}
+.scrolled4{
+  color: #fff;
+}
 
 @media screen and (min-width:991px) {
   .scrolled1{
