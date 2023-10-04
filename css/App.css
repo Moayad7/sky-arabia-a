@@ -205,11 +205,6 @@ body{
   z-index: 0;
 }
 
-.proj-card{
-  height: 300px;
-  width: 100%;
-  padding: 10px;
-}
 
 @media screen and (min-width: 991px) {
   .proj-card{
@@ -224,7 +219,7 @@ body{
 .proj-title{
   opacity: 0;
   bottom: -10px;
-  transition: all 0.3s ease-in 0.3s;
+  transition: all 0.3s ease-in 0s;
   }
   
   .proj-card:hover{
