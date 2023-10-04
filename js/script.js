@@ -21,8 +21,8 @@ function scrollFunction() {
         document.getElementById("navbar").classList.remove("scrolled");
         myElement.classList.remove("scrolled1");
         myElement.classList.add("scrolled2");
-        toggle.classList.remove("scrolled4");
-        toggle.classList.add("scrolled3");
+        toggle.classList.add("scrolled4");
+        toggle.classList.remove("scrolled3");
         logo1.classList.add("block");
         logo1.classList.remove("hidden");
         logo2.classList.add("hidden");
