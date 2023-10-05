@@ -345,7 +345,7 @@ body{
 }
 
 .vision{
-  background-image: url(Assets/images/about1.jpeg);
+  background-image: url(../Assets/images/about1.jpeg);
   background-position: 0 50%;
   background-size: 100%;
 
@@ -357,7 +357,7 @@ body{
 
 
 .mission{
-  background-image: url(Assets/images/about2.jpg);
+  background-image: url(../Assets/images/about2.jpg);
   background-position: 0 50%;
   background-size: 120%;
 

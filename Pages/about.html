@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/App.css" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <title>About us - Sky Al-arabia</title>
+  </head>
+  <body class="">
+
+    <nav class="navbar border-b border-[#ffffff11]" id="navbar">
+        <div class="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
+          <div class="flex items-center h-16">
+            <!-- Navbar logo -->
+            <div class="flex-shrink-0 w-36">
+              <a href="#" class="text-white text-xl font-bold" id="logo">
+                <img src="../Assets/sky logo-02.png" alt="" id="logo2" />
+                <img src="../Assets/sky logo-03.png" alt="" id="logo1" />
+              </a>
+            </div>
+  
+            <!-- Navbar links -->
+            <div class="text-[#fff] mx-auto">
+              <ul
+                class="flex flex-col md:flex-row duration-500 md:pr-14 py-10 md:flex z-[1] md:z-auto absolute md:static bg-gradient-to-t from-[#063380] via-[#063380] to-[#063355] md:bg-gradient-to-t md:from-[#00000000] w-80 h-screen md:h-auto left-0 md:w-auto md:py-0 py-10 text-center md:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
+                id="link"
+              >
+                <a
+                  href="../index.html"
+                  class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                  id=""
+                  >Home</a
+                >
+                <a
+                  href="about.html"
+                  class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                  id=""
+                  >About Us</a
+                >
+                <a
+                  href="#"
+                  class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                  id=""
+                  >Our Services</a
+                >
+                <a
+                  href="#"
+                  class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                  id=""
+                  >Our Projects</a
+                >
+                <a
+                  href="#"
+                  class="border-b-4 border-transparent hover:border-blue-800 duration-300 font-bold text-lg w-full hover:text-blue-500 bold"
+                  id=""
+                  >Contact Us</a
+                >
+              </ul>
+            </div>
+  
+            <div class="text-[#fff] blocked md:hidden flex justify-between items-center">
+              <span class="text-3xl cursor-pointer mx-2 ">
+                <ion-icon
+                  name="menu"
+                  id="navbar-toggler"
+                  class=" transition-all ease-in duration-500"
+                ></ion-icon>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="">
+        <!-- {/* <div class=" fixed zindex top-0 w-full"><Navbar color={props.color} /></div> */} -->
+  
+        <div class="about-bg w-full bg-slate-900 ">
+          <div class="w-full h-full flex flex-col  justify-center items-center bg-slate">
+            <!-- {/* <div class="w-full h-full opacity-75 bg-slate-700 "></div> */} -->
+            <div class="relative w-full h-full flex flex-col justify-between items-center text-start ">
+              <h1 class="text-blue-50 text-5xl py-48">About us</h1>
+              <div class="text-blue-50 text-center  w-full bg-slate-300">
+                <div class=" grid justify-evenly lg:grid-cols-5 md:grid-cols-5 grid-cols-1 text-2xl text-blue-900">
+                  <a
+                    href="#skyInBrief"
+                    class="py-6 h-full border-b-4 border-transparent hover:border-blue-900 duration-300 font-bold"
+                  >
+                    Sky in brief
+                  </a>
+                  <a
+                    href="#charmin"
+                    class="py-6 h-full border-b-4 border-transparent hover:border-blue-900 duration-300 font-bold"
+                  >
+                    Chairmen’s Message
+                  </a>
+                  <a
+                    href="#vision&mission"
+                    class="py-6 h-full border-b-4 border-transparent hover:border-blue-900 duration-300 font-bold"
+                  >
+                    Vision & Mission
+                  </a>
+                  <a
+                    href="#ourServices"
+                    class="py-6 h-full border-b-4 border-transparent hover:border-blue-900 duration-300 font-bold"
+                  >
+                    Our Services
+                  </a>
+                  <a
+                    href="#why"
+                    class="py-6 h-full border-b-4 border-transparent hover:border-blue-900 duration-300 font-bold"
+                  >
+                    WHY?
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- {/* sky in brief */} -->
+  
+        <div class=" brief" id="skyInBrief">
+          <div class="py-10 px-10 bg-slate">
+            <div class="lg:px-40">
+              <div class="pb-6">
+                <h1 class="text-4xl text-blue-900">Sky in Brief</h1>
+              </div>
+              <div>
+                <p class="lg:text-justify text-lg text-start text-slate-50">
+                  “Sky Alarabia Contracting Company” is an example of excellence,
+                  development, and a symbol of progress, owned and led by Saudi
+                  National and backed by team of competent, professional, and
+                  highly experienced team. “Sky Alarabia Company” takes its first
+                  step in the year of 1997 and expand its integrity in all regions
+                  with a vision of complete construction services to the clients.
+                  <br />
+                  <br />
+                  Our services are customized to address the needs of our
+                  principals. We attempt to hire the best people and give them
+                  opportunities to grow. We constantly improve upon our management
+                  systems & invest in the best equipment and latest technology.
+                  <br />
+                  <br /> We ourselves completely devote towards the safety and
+                  wellbeing of our people, clients, suppliers, and the society in
+                  which we work and live. We are committed to achieving Social,
+                  Economic, and environmental sustainability in everything we do.
+                  Our Aim is to maintain good reputation of integrity whatever we
+                  do.
+                  <br />
+                  <br /> We have a passion for what we do, and for being the best
+                  in the industry
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- {/* charmin */} -->
+  
+        <div class="chairmen border-b-2" id="charmin">
+          <div class="px-10 py-10 bg-slate-light">
+            <div class="lg:px-40">
+              <div class="pb-6">
+                <h1 class="text-4xl text-blue-900">Chairmen’s Message</h1>
+              </div>
+              <div>
+                <p class="lg:text-justify text-lg text-start text-slate-700" id="skyInBrief">
+                  It’s my pleasure to introduce ourselves as “Sky Alarabia
+                  Contracting Company”. Since 1997 we enjoyed good reputation for
+                  its successful completion of numerous projects in Saudi Arabia.
+                  The company provides a comprehensive array of services including
+                  construction, project management, engineering, and maintenance.
+                  the field covered by our high-quality services including
+                  building and housing, civil works.
+                  <br />
+                  <br />
+                  At present we are serving major giants like Saudi Aramco, SCECO
+                  and all the government departments. We are having professional
+                  team specialized in all areas no matter your project needs are,
+                  our services team can fully satisfy your requirement.
+                  <br />
+                  <br /> “We Will Develop Best to Our Abilities for The Ultimate
+                  Satisfaction of Our Customers”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- {/* vision & mission */} -->
+        <div
+          class=" flex justify-center bg-slate-100 py-20"
+          id="vision&mission"
+        >
+          <div class=" container grid gap-5 p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+            <div class="vision shadow-xl relative h-80 duration-300">
+              <div class="p-6 absolute top-0 h-full left-0 flex flex-col justify-center items-center w-full bg-slate text-slate-50">
+                <div class="p-2 border-b-2 border-l-2 border-blue-500">
+                  <h1 class="pb-2  text-2xl lg:text-3xl font-bold">Vision</h1>
+                  <p class="text-sm font-medium">
+                    To grow our organization through investigating advancing
+                    technology, industry changes and the varying needs of our
+                    clientele as the industry evolves. We will continuously
+                    diversify our skill set to distinguish us from our competition
+                    and foster loyal customers as we build infrastructure and
+                    energy projects that improve the quality of life in Kingdom of
+                    Saudi Arabia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mission shadow-xl duration-300 ">
+              <div class="p-6 flex flex-col justify-center items-center h-80 w-full bg-slate-light text-slate-800">
+                <div class="border-b-2 p-2 border-l-2 border-blue-500">
+                  <h1 class="pb-2 text-2xl lg:text-3xl font-bold">Mission</h1>
+                  <p class="lg:text-justify text-sm font-medium">
+                    We aspire to be the recognized leader in the construction
+                    industry, committed to building infrastructure, power, and
+                    industrial projects across Kingdom of Saudi Arabia. We strive
+                    always to provide the highest value to our owners, customers,
+                    and community with a critical eye towards safety, quality, and
+                    service.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- {/* Our Services */} -->
+        <div class="ourServices" id="ourServices">
+          <div class="py-10 px-10 bg-slate-light ">
+            <div class="lg:px-40">
+              <div class="pb-6">
+                <h1 class="text-4xl text-blue-900">Our Services</h1>
+              </div>
+              <div>
+                <p class="lg:text-justify text-lg text-slate-800 font-medium">
+                  For the last few years “Sky Alarabia Contracting Company”
+                  company successfully delivered different types of projects in
+                  Saudi Arabia ranging from schools and university facilities bank
+                  premises, housing projects construction of residential and
+                  commercial Buildings, office buildings, hospitals. We also have
+                  done Multi storied Buildings, Box Culverts, Bridges (under pass
+                  & fly over), Heavy RCC foundations for erection of machineries,
+                  Telecom Towers, RCC Piles, Cuttings and Forming Embankments for
+                  Railroad Traffic, laying of Pipelines for Water Supply and
+                  Sewerage network, fabrication of steel structures for the
+                  Construction of industrial sheds etc.
+                  <br />
+                  <br />
+                  Delivering Excellence in…. Residential, Infrastructure,
+                  commercial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- {/* WHY? */} -->
+        <div class="why" id="why">
+          <div class="py-10 px-10 bg-slate">
+            <div class="lg:px-40">
+              <div class="pb-6">
+                <h1 class="text-4xl text-blue-700">WHY?</h1>
+              </div>
+              <div>
+                <p class="lg:text-justify text-lg text-slate-50 font-medium">
+                  WHY “SKY ALARABIA CONTRACTING COMPANY” ?<br />
+                  <br />
+                  We have the Local Experience We grew and evolved with the Saudi
+                  market and witnessed its every economic boom, including all
+                  major real estate developments. We know the market well,
+                  understand its needs, and enjoy a long and proven record that
+                  counts a diversity of projects in all sectors.
+                  <br />
+                  <strong>We deliver to International Standards</strong>
+                  <br />
+                  <br />
+                  At “Sky Alarabia Contracting Company” we constantly keep our
+                  business promises by remaining transparent, reliable and result
+                  focused. Abiding by the highest international industry
+                  standards, we k
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- {/* <Footer /> */} -->
+       <footer class="bg-[url('../Assets/images/footer.jpg')] bg-cover">
+        <div class="bg-gradient-to-t from-[#063380bb] to-[#06335599] py-10 px-10">
+    
+            <div class="container mx-auto">
+            
+              <div class="grid grid-cols-1 gap-5 lg:grid-cols-5  justify-center lg:text-start">
+                
+              <div class="link order-1 text-slate-500 flex justify-center w-100 py-5">
+                  
+                  <div class="">
+                  <img src="../Assets/sky logo-03.png" alt="" />
+                  </div>
+                </div>
+                <div class="order-2 flex flex-col px-5 ">
+                  <h3 class="text-blue-50 text-4xl pb-3 font-black">visit</h3>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Home</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">About</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Projects</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Contact</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Privacy</a>
+                </div>
+                <div class="order-3 flex flex-col px-5 ">
+                <h3 class="text-blue-50 text-4xl pb-3 font-black">Services</h3>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">General Contracting</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Steel Fabrication</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Transportation</a>
+                  <a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">Mechanical and Electrical Services</a>
+                </div>
+                <div class="order-4 flex flex-col px-5 ">
+                  <h3 class="text-blue-50 text-4xl pb-3 font-black">Contact</h3>
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <div class="">
+                    <h4 class="text-xl text-[#eee] font-bold">Dammam Head Office</h4>
+                  <div><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">King Fahad Road, Dammam, KSA</a></div>
+                  <div><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">013821-0276</a></div>
+                  <div class="pb-3"><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">013-821-1938</a></div>
+                  
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="lg:pt-16 order-5 h-full px-5">
+                    <h4 class="text-xl text-[#eee] font-bold">Ibn Haiyan Road - Najran - Industrial Area</h4>
+                  <div><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">King Fahad Road, Dammam, KSA</a></div>
+                  <div><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50"> (+966) 017 – 523 - 0123</a></div>
+                  <div><a href="#" class="  text-lg text-[#eee] no-underline hover:text-slate-50">(+966) 0505726627</a></div>
+                    </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
