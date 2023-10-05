@@ -79,6 +79,12 @@ body{
   }
 }
 
+.svg{
+  fill: #058ecc;
+}
+.svg:hover{
+  fill: #063380;
+}
 .d-none{
   display: none;
 }
