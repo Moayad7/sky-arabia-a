@@ -233,6 +233,10 @@ body{
   background-size: cover;
   background-position: 50%;
 }
+.service11{
+  background-image: url(../Assets/images/services1.jpg);
+  background-size: cover;
+}
 .service2{
   background-image: url(../Assets/images/services2.jpg);
   background-size: cover;
@@ -502,3 +506,126 @@ body{
     opacity: 1;
   }
 }
+
+
+
+.service-card {
+  padding: 1.5em;
+  padding-block: 1.8em;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.service-card__body {
+  color: #f7f7f8;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.service-card > :not(span) {
+  transition: .3s cubic-bezier(.6,.4,0,1);
+}
+
+.service-card > strong {
+  display: block;
+  font-size: 1.4rem;
+  letter-spacing: -.035em;
+  color: #f7f7f8;
+}
+
+.service-card>div {
+  fill: #f7f7f8;
+}
+.service-card span {
+  color: #f7f7f8;
+}
+
+@media screen and (min-width: 991px) {
+  .service-card span {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f8;
+    border-radius: 5px;
+    font-weight: bold;
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+  }
+  .service-card:hover span {
+    top: 0;
+    font-size: 1.2em;
+  }
+  .service-card:hover {
+    background: #063380;
+  }
+  
+.service-card:hover>div,.service-card:hover>strong {
+  opacity: 0;
+}
+}
+
+
+@media screen and (max-width:768px) {
+  .service-btn{
+    opacity: 1;
+  }
+}
+
+
+
+.service-card {
+  padding: 1.5em;
+  padding-block: 1.8em;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.service-card__body {
+  color: #f7f7f8;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.service-card > :not(span) {
+  transition: .3s cubic-bezier(.6,.4,0,1);
+}
+
+.service-card > strong {
+  display: block;
+  font-size: 1.4rem;
+  letter-spacing: -.035em;
+  color: #f7f7f8;
+}
+
+.service-card>div {
+  fill: #f7f7f8;
+}
+.service-card span {
+  color: #f7f7f8;
+}
+
+@media screen and (max-width: 991px) {
+.service-card>strong {
+  display: none;
+}
+}
+
+
