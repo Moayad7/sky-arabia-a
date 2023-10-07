@@ -86,7 +86,7 @@ html {
   border-right: 4px solid #058ecc;
   overflow: hidden;
   color: #058ecc;
-  animation: load91371 3.5s linear 1;
+  animation: load91371 3.5s linear infinite;
 }
 
 @keyframes load91371 {
