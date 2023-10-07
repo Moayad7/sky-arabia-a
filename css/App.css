@@ -89,7 +89,7 @@ body{
 }
 
 .svg{
-  fill: #058ecc;
+  fill: #fff;
 }
 .svg:hover{
   fill: #063380;
@@ -288,7 +288,7 @@ body{
   
 }
 .proj-pic1{
-  background-image: url(../Assets/images/project1.webp);
+  background-image: url(../Assets/images/project-33.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -296,7 +296,7 @@ body{
 }
 
 .proj-pic2{
-  background-image: url(../Assets/images/project2.webp);
+  background-image: url(../Assets/images/project-34.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -304,7 +304,7 @@ body{
 }
 
 .proj-pic3{
-  background-image: url(../Assets/images/project3.webp);
+  background-image: url(../Assets/images/project-35.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -312,7 +312,7 @@ body{
 }
 
 .proj-pic4{
-  background-image: url(../Assets/images/project4.webp);
+  background-image: url(../Assets/images/project-36.png);
   background-position: center;
   background-size: cover;
   width: 100%;
