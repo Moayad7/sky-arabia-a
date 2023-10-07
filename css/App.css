@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -11,7 +11,7 @@ html{
   src: url(../Fonts/Bahij_TheSansArabic-Plain.ttf) format("truetype");
 }
 
-body{
+body {
   font-family: bahij;
 }
 
@@ -19,15 +19,18 @@ body{
 .navbar {
   position: fixed;
   width: 100%;
-  height: 60px; /* adjust based on your preference */
+  height: 60px;
+  /* adjust based on your preference */
   background-color: transparent;
-  transition: background-color 0.5s ease-in-out; /* add transition effect */
+  transition: background-color 0.5s ease-in-out;
+  /* add transition effect */
   z-index: 9999;
 }
 
 /* Add a class to change the background color on scroll */
 .navbar.scrolled {
-  background-color: #f5f5f5; /* change to your desired color */
+  background-color: #f5f5f5;
+  /* change to your desired color */
 }
 
 .App-logo {
@@ -36,24 +39,28 @@ body{
 }
 
 
-.scrolled1{
+.scrolled1 {
   color: #fff;
 }
-.scrolled2{
+
+.scrolled2 {
   color: #fff;
 }
-.scrolled3{
+
+.scrolled3 {
   color: #063380;
 }
-.scrolled4{
+
+.scrolled4 {
   color: #fff;
 }
 
 @media screen and (min-width:991px) {
-  .scrolled1{
+  .scrolled1 {
     color: #063380;
   }
-  .scrolled2{
+
+  .scrolled2 {
     color: #fff;
   }
 }
@@ -83,23 +90,28 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.svg{
+.svg {
   fill: #fff;
 }
-.svg:hover{
+
+.svg:hover {
   fill: #063380;
 }
-.d-none{
+
+.d-none {
   display: none;
 }
-.d-block{
+
+.d-block {
   display: block;
 }
+
 .background {
   background-image: url(../Assets/images/1.jpg);
   height: 100vh;
@@ -111,47 +123,49 @@ body{
 
 .btn-2 {
   opacity: 1;
-  bottom:50px;
+  bottom: 50px;
   left: 50px;
   transition: all 0.3s ease-out 0s;
 
 }
 
 @media screen and (min-width: 768px) {
-  
+
   .photo-3:hover {
     .btn-2 {
       opacity: 1;
       bottom: 50px;
       left: 50px;
       transition: all 0.3s ease-out 0s;
-  
+
     }
-  
+
     .bg-mission {
       /* transform: scale(1.1); */
       background-position: 70% 50%;
       transition: all 0.3s ease-out 0s;
     }
+
     .bg-vision {
       /* transform: scale(1.1); */
       background-position: 30% 50%;
       transition: all 0.3s ease-out 0s;
     }
+
     .bg-dark1 {
       background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
       transition: all 0.3s ease-out 0s;
-  
+
     }
-    
+
   }
-  
+
   .btn-2 {
     opacity: 0;
-    bottom:0px;
+    bottom: 0px;
     left: 50px;
     transition: all 0.3s ease-out 0s;
-  
+
   }
 
 }
@@ -174,7 +188,7 @@ body{
     width: 200px;
   }
 
-  
+
 
 }
 
@@ -203,12 +217,12 @@ body{
 }
 
 
-.bg-mission{
+.bg-mission {
   background-image: url(../Assets/images/photo3.jpg);
   background-position: 30% 50%;
 }
 
-.bg-vision{
+.bg-vision {
   background-image: url(../Assets/images/photo4.webp);
   background-position: 70% 50%;
 }
@@ -217,44 +231,47 @@ body{
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-.bg-darkblue{
+.bg-darkblue {
   background-color: rgb(0, 0, 79);
 }
 
-.status-bg{
+.status-bg {
   background-image: url(../Assets/images/photo3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0;
 }
 
-.service1{
+.service1 {
   background-image: url(../Assets/images/services1.jpg);
   background-size: cover;
   background-position: 50%;
 }
-.service11{
+
+.service11 {
   background-image: url(../Assets/images/services1.jpg);
   background-size: cover;
 }
-.service2{
+
+.service2 {
   background-image: url(../Assets/images/services2.jpg);
   background-size: cover;
   background-position: 50%;
 }
 
-.service3{
+.service3 {
   background-image: url(../Assets/images/services3.jpg);
   background-size: cover;
   background-position: 50%;
 }
-.service4{
+
+.service4 {
   background-image: url(../Assets/images/services4.jpg);
   background-size: cover;
   background-position: 50%;
 }
 
-.cards:hover{
+.cards:hover {
   transform: translateY(-10px);
   transition: all 0.3s ease-out 0s;
   z-index: 0;
@@ -262,7 +279,7 @@ body{
 
 
 @media screen and (min-width: 991px) {
-  .proj-card{
+  .proj-card {
     height: 600px;
     width: 100%;
   }
@@ -270,24 +287,26 @@ body{
 
 
 @media screen and (min-width:768px) {
-  
-.proj-title{
-  opacity: 0;
-  bottom: -10px;
-  transition: all 0.3s ease-in 0s;
+
+  .proj-title {
+    opacity: 0;
+    bottom: -10px;
+    transition: all 0.3s ease-in 0s;
   }
-  
-  .proj-card:hover{
-    .proj-title{
+
+  .proj-card:hover {
+    .proj-title {
       opacity: 1;
       bottom: 0;
     }
+
     transform: scale(0.9);
     transition: all 0.3s ease-out 0s;
   }
-  
+
 }
-.proj-pic1{
+
+.proj-pic1 {
   background-image: url(../Assets/images/project-33.png);
   background-position: center;
   background-size: cover;
@@ -295,7 +314,7 @@ body{
   height: 100%;
 }
 
-.proj-pic2{
+.proj-pic2 {
   background-image: url(../Assets/images/project-34.png);
   background-position: center;
   background-size: cover;
@@ -303,7 +322,7 @@ body{
   height: 100%;
 }
 
-.proj-pic3{
+.proj-pic3 {
   background-image: url(../Assets/images/project-35.png);
   background-position: center;
   background-size: cover;
@@ -311,7 +330,7 @@ body{
   height: 100%;
 }
 
-.proj-pic4{
+.proj-pic4 {
   background-image: url(../Assets/images/project-36.png);
   background-position: center;
   background-size: cover;
@@ -320,7 +339,7 @@ body{
 }
 
 
-.bg-status{
+.bg-status {
   background-image: url(../Assets/images/project2.webp);
   background-size: cover;
   background-position: center;
@@ -328,181 +347,195 @@ body{
   width: 100%;
 }
 
-.zindex{
-  z-index:99;
+.zindex {
+  z-index: 99;
 }
 
-.bg-slate{
+.bg-slate {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.bg-slate-light{
-  background-color: rgba(255,255,255,0.85);
+.bg-slate-light {
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
-.bg-blue-dark{
+.bg-blue-dark {
   background-color: rgba(0, 26, 92, 0.708);
 }
 
-.bg-blue:hover{
+.bg-blue:hover {
   background-color: rgba(0, 26, 92, 0.708);
 }
 
 /* about */
 
-.about-bg{
+.about-bg {
   background-image: url(../Assets/images/about1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0;
 }
 
-.vision{
+.vision {
   background-image: url(../Assets/images/about1.jpeg);
   background-position: 0 50%;
   background-size: 100%;
 
 }
 
-.vision:hover{
+.vision:hover {
   background-size: 150%;
 }
 
 
-.mission{
+.mission {
   background-image: url(../Assets/images/about2.jpg);
   background-position: 0 50%;
   background-size: 120%;
 
 }
 
-.mission:hover{
+.mission:hover {
   background-size: 150%;
 }
 
 @media screen and (max-width:991px) {
-  .vision{
+  .vision {
     background-size: cover;
   }
-  .vision:hover{
+
+  .vision:hover {
     background-size: cover;
   }
-  .mission{
+
+  .mission {
     background-size: cover;
   }
-  .mission:hover{
+
+  .mission:hover {
     background-size: cover;
   }
 }
 
-.brief{
+.brief {
   background-image: url(../Assets/images/about4.jpg);
   background-position: 50%;
   background-size: cover;
 }
 
-.chairmen{
+.chairmen {
   background-image: url(../Assets/images/about3.jpg);
   background-position: 50%;
   background-size: cover;
 }
 
-.ourServices{
+.ourServices {
   background-image: url(../Assets/images/about5.jpg);
   background-position: 50%;
   background-size: cover;
 }
 
-.why{
+.why {
   background-image: url(../Assets/images/about6.jpg);
   background-position: 50%;
   background-size: cover;
 }
 
 
-.services-bg{
+.services-bg {
   background-image: url(../Assets/images/civil1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 70%;
 }
 
-.service-btn{
+.service-btn {
   opacity: 0;
 }
 
-.civil-bg{
+.civil-bg {
   background-image: url(../Assets/images/civil2.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.steal-bg{
+.steal-bg {
   background-image: url(../Assets/images/services2.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.transport-bg{
+.transport-bg {
   background-image: url(../Assets/images/services3.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.elect-bg{
+.elect-bg {
   background-image: url(../Assets/images/services4.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
 
 
-.service1-bg{
+.service1-bg {
   background-image: url(../Assets/images/civil2.jpg);
   background-position: 0 50%;
   background-size: 150%;
 }
-.service2-bg{
+
+.service2-bg {
   background-image: url(../Assets/images/services2.jpg);
   background-position: 0 50%;
   background-size: 150%;
 }
-.service3-bg{
+
+.service3-bg {
   background-image: url(../Assets/images/services3.jpg);
   background-position: 0 50%;
   background-size: 150%;
 }
-.service4-bg{
+
+.service4-bg {
   background-image: url(../Assets/images/services4.jpg);
   background-position: 0 50%;
   background-size: 150%;
 }
-.service1-bg:hover{
-  .service-btn{
+
+.service1-bg:hover {
+  .service-btn {
     opacity: 1;
   }
+
   background-position: 50% 50%;
 }
-.service2-bg:hover{
-  .service-btn{
+
+.service2-bg:hover {
+  .service-btn {
     opacity: 1;
   }
+
   background-position: 50% 50%;
 }
-.service3-bg:hover{
-  .service-btn{
+
+.service3-bg:hover {
+  .service-btn {
     opacity: 1;
   }
+
   background-position: 50% 50%;
 }
-.service4-bg:hover{
-  .service-btn{
+
+.service4-bg:hover {
+  .service-btn {
     opacity: 1;
   }
+
   background-position: 50% 50%;
 }
 
 @media screen and (max-width:768px) {
-  .service-btn{
+  .service-btn {
     opacity: 1;
   }
 }
@@ -515,7 +548,7 @@ body{
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+  transition: .3s cubic-bezier(.6, .4, 0, 1), transform .15s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -529,11 +562,11 @@ body{
   font-size: 1em;
 }
 
-.service-card > :not(span) {
-  transition: .3s cubic-bezier(.6,.4,0,1);
+.service-card> :not(span) {
+  transition: .3s cubic-bezier(.6, .4, 0, 1);
 }
 
-.service-card > strong {
+.service-card>strong {
   display: block;
   font-size: 1.4rem;
   letter-spacing: -.035em;
@@ -543,6 +576,7 @@ body{
 .service-card>div {
   fill: #f7f7f8;
 }
+
 .service-card span {
   color: #f7f7f8;
 }
@@ -560,24 +594,27 @@ body{
     border-radius: 5px;
     font-weight: bold;
     top: 100%;
-    transition: all .3s cubic-bezier(.6,.4,0,1);
+    transition: all .3s cubic-bezier(.6, .4, 0, 1);
   }
+
   .service-card:hover span {
     top: 0;
     font-size: 1.2em;
   }
+
   .service-card:hover {
     background: #063380;
   }
-  
-.service-card:hover>div,.service-card:hover>strong {
-  opacity: 0;
-}
+
+  .service-card:hover>div,
+  .service-card:hover>strong {
+    opacity: 0;
+  }
 }
 
 
 @media screen and (max-width:768px) {
-  .service-btn{
+  .service-btn {
     opacity: 1;
   }
 }
@@ -590,7 +627,7 @@ body{
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+  transition: .3s cubic-bezier(.6, .4, 0, 1), transform .15s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -604,11 +641,11 @@ body{
   font-size: 1em;
 }
 
-.service-card > :not(span) {
-  transition: .3s cubic-bezier(.6,.4,0,1);
+.service-card> :not(span) {
+  transition: .3s cubic-bezier(.6, .4, 0, 1);
 }
 
-.service-card > strong {
+.service-card>strong {
   display: block;
   font-size: 1.4rem;
   letter-spacing: -.035em;
@@ -618,14 +655,13 @@ body{
 .service-card>div {
   fill: #f7f7f8;
 }
+
 .service-card span {
   color: #f7f7f8;
 }
 
 @media screen and (max-width: 991px) {
-.service-card>strong {
-  display: none;
+  .service-card>strong {
+    display: none;
+  }
 }
-}
-
-
