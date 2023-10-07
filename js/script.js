@@ -56,3 +56,26 @@ toggle.onclick = function(){Menu()}
     item.name === 'close' ? (list.classList.add('left-[0px]')) : (list.classList.remove('left-[0px]'))
     console.log("toggle");
 }
+
+
+var loader = document.getElementsByClassName("loader");
+var content = document.querySelector(".content");
+
+window.addEventListener("load", ()=>{
+    this.setTimeout(()=>{
+  document.querySelector(".spinnerContainer").classList.add("loader1--hidden")
+  document.querySelector(".spinnerContainer").classList.remove("loader1--visible")
+content.classList.remove('hidden');
+
+    },1700)
+    this.setTimeout(()=>{
+        document.querySelector(".spinnerContainer").classList.add("hidden")
+          },2700)
+});
+
+
+// var load = window.addEventListener("load",()=>{
+    
+//     document.querySelector(".loader1").classList.add("loader1--hidden")
+//   })
+// setInterval(load,50000)
