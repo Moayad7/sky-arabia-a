@@ -85,9 +85,9 @@ html {
   position: absolute;
   display: flex;
   height:40px;
-  border-right: 4px solid #058ecc;
+  border-right: 4px solid #fff;
   overflow: hidden;
-  color: #058ecc;
+  color: #fff;
   animation: load91371 3.5s linear infinite;
 }
 
