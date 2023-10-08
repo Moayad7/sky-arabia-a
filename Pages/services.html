@@ -114,41 +114,44 @@
     </nav>
 
     <div class="flex flex-col justify-center">
-      <div class="services-bg w-full bg-slate-900">
-        <div
-          class="w-full h-full flex flex-col justify-center items-center bg-slate"
-        >
-          <div
-            class="relative w-full h-full flex flex-col justify-between items-center text-start"
-          >
-            <h1 class="text-blue-50 text-5xl pb-36 pt-48">Our Services</h1>
+      <div class="services-bg w-full bg-slate-900 ">
+        <div class="w-full h-full flex flex-col  justify-center items-center bg-slate">
+          <div class="relative w-full h-full flex flex-col justify-between items-center text-start ">
+            <h1 class="text-blue-50 text-5xl pb-36 pt-48" data-aos="flip-left"
+            data-aos-duration="1000">Our Services</h1>
           </div>
         </div>
       </div>
 
-      <div class="bg-slate-200">
+      <div class="bg-slate-200 px-4 lg:px-24">
         <div class="container mx-auto my-10 p-5 text-start h-full">
           <div class="grid grid-cols-1 md:grid-cols-2 h-full">
-            <div class="order-2 w-full h-full flex justify-center items-center">
+            <div class="order-2 lg:px-4 w-full h-full flex  justify-center items-center border-b-4 border-blue-900">
               <img
-                src="{logo}"
+                src="../Assets/sky-logo-02.svg"
                 alt=""
-                class="lg:mx-40 m-10 pb-10 border-b-4 border-blue-900 w-full"
+                class=" m-10 pb-10   w-full"
+                data-aos="flip-left"
+            data-aos-duration="1000"
               />
             </div>
-            <div
-              class="order-1 w-full h-full flex flex-col justify-center items-center"
-            >
-              <h1 class="text-5xl font-black text-blue-900 mb-6">
-                “Sky Alarabia Contracting Company” are committed to provide the
-                following services.{" "}
+            <div class=" order-1 w-full h-full flex flex-col justify-center items-center">
+              <!-- <h1 class="text-5xl font-black text-blue-900 mb-6">
+                We are committed to provide the
+                following services.
+              </h1> -->
+              <h1 class="text-2xl md:text-5xl font-black text-blue-900 mb-6" data-aos="fade-down"
+              data-aos-duration="1000">
+                Our services and areas of work
               </h1>
-              <p class="text-lg text-slate-700 text-justify">
-                Civil Construction works. ⮚ Steel Fabrication ⮚ Landscape
-                including, Earth moving, and soil treatment. ⮚ HVAC ⮚ MEP ⮚
-                Unique Construction Equipment. ⮚ Transportation long and short
-                destines. ⮚ Project management ⮚ Manpower supply For the last
-                few years “Sky Alarabia Contracting Company” company
+              <p class="text-sm text-slate-700 text-justify" data-aos="fade-up"
+              data-aos-duration="1000">
+                <!-- ⮚Civil Construction works.<br /> ⮚ Steel Fabrication <br />⮚ Landscape
+                including, Earth moving, and soil treatment. <br />⮚ HVAC <br />⮚ MEP<br /> ⮚
+                Unique Construction Equipment. <br />⮚ Transportation long and short
+                destines. <br />⮚ Project management <br /> ⮚Manpower supply<br /><br /> -->
+                 For the last
+                few years Our company
                 successfully delivered different types of projects in Saudi
                 Arabia ranging from schools and university facilities bank
                 premises, housing projects construction of residential and
@@ -160,9 +163,10 @@
                 Sewerage network, fabrication of steel structures for the
                 Construction of industrial sheds etc.
                 <br />
-                <be />
+                <br />
               </p>
-              <span class="text-blue-900 mt-6 text-3xl text-start">
+              <span class="text-blue-900 mt-6 text-xl md:text-3xl text-start" data-aos="fade-up"
+              data-aos-duration="1000">
                 Delivering Excellence in…. Residential, Infrastructure,
                 commercial.
               </span>
@@ -171,241 +175,157 @@
         </div>
       </div>
 
-      <div class="">
+      <!-- <div class="">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <!-- <ServicesItem
-              bg="service1-bg duration-300"
-              title="General Contracting"
-              url="/civil-construction"
-            />
-            <ServicesItem
-              bg="service2-bg duration-300"
-              title="Steel Fabrication"
-              url="/steal-fabrication"
-            />
-            <ServicesItem
-              bg="service3-bg duration-300"
-              title="Transportation"
-              url="/transportation"
-            />
-            <ServicesItem
-              bg="service4-bg duration-300"
-              title="Mechanical and Electrical Services"
-              url="/mechanical&electrical"
-            /> -->
+          <ServicesItem
+            bg="service1-bg duration-300"
+            title="General Contracting"
+            url="/civil-construction"
+          />
+          <ServicesItem
+            bg="service2-bg duration-300"
+            title="Steel Fabrication"
+            url="/steal-fabrication"
+          />
+          <ServicesItem
+            bg="service3-bg duration-300"
+            title="Transportation"
+            url="/transportation"
+          />
+          <ServicesItem
+            bg="service4-bg duration-300"
+            title="Mechanical and Electrical Services"
+            url="/mechanical&electrical"
+          />
+        </div>
+      </div> -->
 
-          <div class="bg-slate-100">
-            <div class="civil-bg">
+      <div>
+        <div class=" text-center p-8 lg:p-0 flex flex-col lg:flex-row gap-8 md:gap-0  items-center">
+          <div
+            class=" w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <div class="service-card-content bg-[url('../Assets/images/services1.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full">
               <div
-                class="w-full h-full flex flex-col justify-center items-center bg-blue-dark"
+                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#063380aa]  duration-500" 
               >
-                <div
-                  class="relative w-full h-full flex flex-col justify-between items-center text-start"
+                
+                <span class="flex flex-col justify-center px-4 lg:px-8 items-center">
+                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2"> Civil Contractions </strong>
+                  
+                  <div class="w-full card-btn cursor-pointer pt-4  duration-500">
+                    <button
+                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#063380]  p-2 duration-500"
+                    >
+                      Read more..
+                    </button>
+                  </div></span
                 >
-                  <h1 class="text-blue-50 text-5xl pb-24 pt-36">
-                    Civil Construction
-                  </h1>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="container mx-auto text-justify">
-              <div class="">
-                <p class="text-2xl text-blue-900 py-24 px-24 lg:px-60">
-                  Civil Contractors is dedicated to producing quality civil
-                  construction works for the residential commercial and
-                  infrastructure sectors, whereas maintain the highest level of
-                  integrity at all levels of project. We are all equipped to
-                  handle the smallest to the largest job. Our expert civil and
-                  construction project delivery experience ensures we are the
-                  preferred contractors for many clients across a vast array of
-                  industry sectors.
-                  <br />
-                  Listed below are the main works and activities.
-                  <br />
-                  <br />
-                  ● Construction works.
-                  <br />
-                  ● Commercial buildings.
-                  <br />
-                  ● Structural Works.
-                  <br />
-                  ● Earth and landscaping works.
-                  <br />
-                  ● Site preparation leveling and soil treatment.
-                  <br />
-                  ● Surface stabilization.
-                  <br />
-                  ● Masonry works.
-                  <br />● Carpentry works.
-                </p>
-              </div>
-            </div>
 
-            <div class="">
-              <div class="grid justify-center">
-                <img
-                  src="../Assets/images/services11.webp"
-                  alt=""
-                  class="hover:opacity-90 duration-300 w-full my-24 shadow"
-                />
-              </div>
-            </div>
-
-            <div class="bg-slate-100">
-              <div class="steal-bg">
-                <div
-                  class="w-full h-full flex flex-col justify-center items-center bg-blue-dark"
+          <div
+            class=" w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <div class="service-card-content bg-[url('../Assets/images/services2.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full">
+              <div
+                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#063380aa]  duration-500" 
+              >
+                
+                <span class="flex flex-col justify-center px-4 lg:px-8 items-center">
+                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2"> Steel Fabrication </strong>
+                  
+                  <div class="w-full card-btn cursor-pointer pt-4  duration-500">
+                    <button
+                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#063380]  p-2 duration-500"
+                    >
+                      Read more..
+                    </button>
+                  </div></span
                 >
-                  <div
-                    class="relative w-full h-full flex flex-col justify-between items-center text-start"
-                  >
-                    <h1 class="text-blue-50 text-5xl pb-24 pt-36">
-                      Steal Fabrication
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="container mx-auto text-justify">
-              <div class="">
-                <p class="text-2xl text-blue-900 py-24 px-24 lg:px-60">
-                  Sky Alarabia owns a steel fabrication facility in Jubail light
-                  industrial area with all the required machines and allotted
-                  area for sandblasting and painting to fulfill and cater
-                  clients under one roof. Workshop is based on 3000 sq meter
-                  area. Sky Alarabia has several years’ experience working on
-                  various projects and lately on Sadara & Satorp.
-                </p>
-              </div>
-            </div>
-
-            <div class="">
-              <div class="grid justify-center">
-                <img
-                  src="../Assets/images/services22.jpg"
-                  alt=""
-                  class="hover:opacity-90 duration-300 w-full my-24 shadow"
-                />
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="bg-slate-100">
-          <div class="transport-bg">
-            <div
-              class="w-full h-full flex flex-col justify-center items-center bg-blue-dark"
-            >
+          <div
+            class=" w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <div class="service-card-content bg-[url('../Assets/images/services3.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full">
               <div
-                class="relative w-full h-full flex flex-col justify-between items-center text-start"
+                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#063380aa]  duration-500" 
               >
-                <h1 class="text-blue-50 text-5xl pb-24 pt-36">
-                  Transportation & Heavy-duty Facilities
-                </h1>
+                
+                <span class="flex flex-col justify-center px-4 lg:px-8 items-center">
+                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2"> Transportation </strong>
+                  
+                  <div class="w-full card-btn cursor-pointer pt-4  duration-500">
+                    <button
+                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#063380]  p-2 duration-500"
+                    >
+                      Read more..
+                    </button>
+                  </div></span
+                >
               </div>
             </div>
           </div>
 
-          <div class="container mx-auto text-justify">
-            <div class="">
-              <p class="text-2xl text-blue-900 py-24 px-24 lg:px-60">
-                “Sky Alarabia Contracting Company” Transportation is performing
-                its service by utilizing its own fleet. The company currently
-                owning its own Equipment.<br /><br />
-                “Sky Alarabia Contracting Company” evaluate periodically the
-                condition of the trucks, based on performance trucks will be
-                purchased to maintain high standards.<br /><br />
-                “Sky Alarabia Contracting Company” owns different types of
-                trailers to fulfill the different requirements.<br /><br />
-                “Sky Alarabia Contracting Company” Transportation has its own
-                workshop in Dammam in that work shop we do almost all kind of
-                maintenance and repairs to our fleet
-              </p>
-            </div>
-          </div>
 
-          <div class="">
-            <div class="grid justify-center">
-              <img
-                src="../Assets/images/services33.webp"
-                alt=""
-                class="hover:opacity-90 duration-300 w-full my-24 shadow"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-slate-100">
-          <div class="container mx-auto">
-            <div
-              class="justify-center items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3"
-            >
-              <div class="py-16">
-                <h1 class="text-blue-900 text-6xl font-black">17</h1>
-                <h1 class="text-slate-700 text-2xl">Our Projects</h1>
-              </div>
-              <div class="py-16">
-                <h1 class="text-blue-900 text-6xl font-black">10</h1>
-                <h1 class="text-slate-700 text-2xl">Our Clients</h1>
-              </div>
-              <div class="py-16">
-                <h1 class="text-blue-900 text-6xl font-black">240</h1>
-                <h1 class="text-slate-700 text-2xl">Our Team</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-slate-100">
-          <div class="elect-bg">
-            <div
-              class="w-full h-full flex flex-col justify-center items-center bg-blue-dark"
-            >
+          <div
+            class=" w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <div class="service-card-content bg-[url('../Assets/images/services4.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full">
               <div
-                class="relative w-full h-full flex flex-col justify-between items-center text-start"
+                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#063380aa]  duration-500" 
               >
-                <h1 class="text-blue-50 text-5xl pb-24 pt-36">
-                  Mechanical and Electrical Services
-                </h1>
+                
+                <span class="flex flex-col justify-center px-4 lg:px-8 items-center">
+                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2"> Mechanical and Electrical Services </strong>
+                  
+                  <div class="w-full card-btn cursor-pointer pt-4  duration-500">
+                    <button
+                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#063380]  p-2 duration-500"
+                    >
+                      Read more..
+                    </button>
+                  </div></span
+                >
               </div>
             </div>
           </div>
 
-          <div class="container mx-auto text-justify">
-            <div class="">
-              <p class="text-2xl text-blue-900 py-24 px-24 lg:px-60">
-                “Sky Alarabia Contracting Company” gives full-service of
-                mechanical and electrical to commercial and industrial
-                customers. We have established a quality-driven reputation of
-                providing unparalleled design, construction, service, and
-                maintenance to our customers. “Sky Alarabia Contracting Company”
-                is proud to provide an extensive range of services through our
-                various divisions and an uncompromised commitment to safety and
-                community leadership.
-                <br />
-                <br />
-                Our vast pool of experience, resources and affiliations puts
-                your project in the most capable hands in the industry. We are
-                the forefront of construction technology implementation and
-                innovation.
-                <br />
-                <br />
-                Our team provides a comprehensive array of electrical and
-                technology system solutions, including the design / build /
-                maintain lifetime cycle.
-              </p>
-            </div>
-          </div>
 
-          <div class="">
-            <div class="grid justify-center">
-              <img
-                src="../Assets/images/services44.jpg"
-                alt=""
-                class="hover:opacity-90 duration-300 w-full my-24 shadow"
-              />
+
+        </div>
+      </div>
+
+      <div class="bg-slate-100 px-4 lg:px-24">
+        <div class="container mx-auto">
+          <div class="justify-center items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+            <div class="py-16 lg:py-36" data-aos="fade-up"
+              data-aos-duration="1000">
+              <h1 class="text-blue-900 text-6xl font-black">26</h1>
+              <h1 class="text-slate-700 text-2xl">Our Projects</h1>
+            </div>
+            <div class="py-16" data-aos="fade-up"
+              data-aos-duration="1000">
+              <h1 class="text-blue-900 text-6xl font-black">6</h1>
+              <h1 class="text-slate-700 text-2xl">Our Clients</h1>
+            </div>
+            <div class="py-16" data-aos="fade-up"
+              data-aos-duration="1000">
+              <h1 class="text-blue-900 text-6xl font-black">240</h1>
+              <h1 class="text-slate-700 text-2xl">Our Team</h1>
             </div>
           </div>
         </div>

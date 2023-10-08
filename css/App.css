@@ -762,3 +762,14 @@ body {
     display: none;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .hidden-btn{
+    opacity: 0;
+  }
+  .service-card-content:hover .hidden-btn{
+    opacity: 1;
+  }
+}
+
+
