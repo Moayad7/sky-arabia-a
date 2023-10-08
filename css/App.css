@@ -209,7 +209,7 @@ body {
 }
 
 .background {
-  background-image: url(../Assets/images/1.jpg);
+  background-image: url(../Assets/images/1.webp);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -466,14 +466,14 @@ body {
 /* about */
 
 .about-bg {
-  background-image: url(../Assets/images/about1.jpeg);
+  background-image: url(../Assets/images/about1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0;
 }
 
 .vision {
-  background-image: url(../Assets/images/about1.jpeg);
+  background-image: url(../Assets/images/about1.webp);
   background-position: 0 50%;
   background-size: 100%;
 
@@ -485,7 +485,7 @@ body {
 
 
 .mission {
-  background-image: url(../Assets/images/about2.jpg);
+  background-image: url(../Assets/images/about2.webp);
   background-position: 0 50%;
   background-size: 120%;
 
@@ -514,13 +514,13 @@ body {
 }
 
 .brief {
-  background-image: url(../Assets/images/about4.jpg);
+  background-image: url(../Assets/images/about4.webp);
   background-position: 50%;
   background-size: cover;
 }
 
 .chairmen {
-  background-image: url(../Assets/images/about3.jpg);
+  background-image: url(../Assets/images/about3.webp);
   background-position: 50%;
   background-size: cover;
 }
