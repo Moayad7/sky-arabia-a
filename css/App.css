@@ -286,7 +286,6 @@ body {
 
 .background {
   background-image: url(../Assets/images/home.webp);
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
