@@ -219,7 +219,7 @@ body {
 }
 
 .scrolled3 {
-  color: #063380;
+  color: #0044bb;
 }
 
 .scrolled4 {
@@ -228,7 +228,7 @@ body {
 
 @media screen and (min-width:768px) {
   .scrolled1 {
-    color: #063380;
+    color: #0044bb;
   }
 
   .scrolled2 {
@@ -272,7 +272,7 @@ body {
 }
 
 .svg:hover {
-  fill: #063380;
+  fill: #0044bb;
 }
 
 .d-none {
@@ -773,7 +773,7 @@ body {
   }
 
   .service-card:hover {
-    background: #063380;
+    background: #0044bb;
   }
 
   .service-card:hover>div,
