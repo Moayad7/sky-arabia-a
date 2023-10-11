@@ -4,6 +4,7 @@ var logo2 = document.getElementById("logo2");
 var a2030 = document.getElementById("2030-1");
 var b2030 = document.getElementById("2030-2");
 var toggle = document.getElementById("navbar-toggler");
+var toggle2 = document.getElementById("navbar-toggler2");
 
 window.onscroll = function () {
   scrollFunction();
@@ -41,6 +42,7 @@ function scrollFunction() {
   }
 }
 logo2.classList.add("hidden");
+b2030.classList.add("hidden");
 
 AOS.init();
 
@@ -56,6 +58,9 @@ AOS.init();
 toggle.onclick = function () {
   Menu();
 };
+toggle2.onclick = function () {
+  Menu2();
+};
 
 function Menu() {
   let item = toggle;
@@ -65,6 +70,13 @@ function Menu() {
     ? list.classList.add("left-[0px]")
     : list.classList.remove("left-[0px]");
   console.log("toggle");
+}
+function Menu2() {
+  let item = toggle;
+  let list = document.querySelector("ul");
+  item.name === "menu" ? (item.name = "close") : (item.name = "menu");
+  item.name === "close"
+  list.classList.remove("left-[0px]")
 }
 
 var loader = document.getElementsByClassName("loader");
