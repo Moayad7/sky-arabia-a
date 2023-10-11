@@ -827,6 +827,7 @@ body {
 
 .top {
   text-decoration: none;
+  opacity: 0.5;
   padding: 8px;
   font-family: sans-serif;
   background: #2CB742;
@@ -834,4 +835,13 @@ body {
   position: fixed;
   bottom: 20px; 
   right: 20px; 
+  transition: all 0.3s ease-out 0s;
+}
+
+.top:hover{
+  opacity: 1;
+}
+
+.icons-fill{
+  fill: #fff;
 }
