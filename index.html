@@ -942,9 +942,10 @@
               >
                 Contact us
               </h2>
-              <form data-aos="fade-down" data-aos-duration="800">
+              <form action="sendEmail.php" method="POST" data-aos="fade-down" data-aos-duration="800">
                 <div class="relative mb-6" data-te-input-wrapper-init>
                   <input
+                  name="name"
                     type="text"
                     class="border-b-2 border-[#0044bb] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
                     id="exampleInput90"
@@ -953,6 +954,7 @@
                 </div>
                 <div class="relative mb-6" data-te-input-wrapper-init>
                   <input
+                  name="email"
                     type="email"
                     class="border-b-2 border-[#0044bb] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
                     id="exampleInput91"
@@ -961,6 +963,7 @@
                 </div>
                 <div class="relative mb-6" data-te-input-wrapper-init>
                   <textarea
+                  name="message"
                     class="border-b-2 border-[#0044bb] block h-60 w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
                     id="exampleFormControlTextarea1"
                     rows="3"
@@ -969,19 +972,19 @@
                 </div>
 
                 <button
-                  type="button"
+                  type="submit"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="mb-6 inline-block w-full bg-[#0044bb] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                  class=" inline-block w-full bg-[#0044bb] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                 >
                   Send
                 </button>
               </form>
             </div>
-            <div class="w-full justify-center" data-aos="fade-up">
+            <div class="w-full h-full justify-center" data-aos="fade-up">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15212.979956860305!2d44.3467141!3d17.5910976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15fed9a5f4b40a9d%3A0x92d1806b7796bc93!2z2LPZg9in2Yog2KfZhNi52LHYqNmK2Kkg2YTZhNmF2YLYp9mI2YTYp9iq!5e0!3m2!1sar!2s!4v1696284825776!5m2!1sar!2s"
-                height="450"
+                height="100%"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
