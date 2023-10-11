@@ -812,3 +812,15 @@ body {
 }
 
 
+.projects-bg{
+  background-image: url(../Assets/images/project1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.proj-bg{
+  background-image: url(../Assets/images/projects-bg-02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
