@@ -1,6 +1,8 @@
 var myElement = document.getElementById("link");
 var logo1 = document.getElementById("logo1");
 var logo2 = document.getElementById("logo2");
+var a2030 = document.getElementById("2030-1");
+var b2030 = document.getElementById("2030-2");
 var toggle = document.getElementById("navbar-toggler");
 
 window.onscroll = function () {
@@ -18,6 +20,10 @@ function scrollFunction() {
     logo1.classList.remove("block");
     logo2.classList.add("block");
     logo2.classList.remove("hidden");
+    a2030.classList.add("hidden");
+    a2030.classList.remove("block");
+    b2030.classList.add("block");
+    b2030.classList.remove("hidden");
   } else {
     document.getElementById("navbar").classList.remove("scrolled");
     myElement.classList.remove("scrolled1");
@@ -28,6 +34,10 @@ function scrollFunction() {
     logo1.classList.remove("hidden");
     logo2.classList.add("hidden");
     logo2.classList.remove("block");
+    b2030.classList.add("hidden");
+    b2030.classList.remove("block");
+    a2030.classList.add("block");
+    a2030.classList.remove("hidden");
   }
 }
 logo2.classList.add("hidden");
