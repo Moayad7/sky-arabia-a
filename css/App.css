@@ -824,3 +824,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.top {
+  text-decoration: none;
+  padding: 8px;
+  font-family: sans-serif;
+  background: #2CB742;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+}
