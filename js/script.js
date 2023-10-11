@@ -79,3 +79,24 @@ window.addEventListener("load", () => {
 //     document.querySelector(".loader1").classList.add("loader1--hidden")
 //   })
 // setInterval(load,50000)
+
+
+
+tailwind.config = {
+  theme: {
+      extend: {
+          fontFamily: {
+              inter: ['Inter', 'sans-serif'],
+          },
+          animation: {
+              'infinite-scroll': 'infinite-scroll 10s linear infinite',
+          },
+          keyframes: {
+              'infinite-scroll': {
+                  from: { transform: 'translateX(0)' },
+                  to: { transform: 'translateX(-50%)' },
+              }
+          }                    
+      },
+  },
+};
