@@ -107,7 +107,7 @@
             <div class="text-[#fff] mx-auto uppercase ">
               
               <ul
-                class="flex flex-col md:flex-row justify-center duration-500 py-10 md:flex z-[1] md:z-auto absolute md:static bg-gradient-to-t from-[#0044bb] via-[#0044bb] to-[#063355] md:bg-gradient-to-t md:from-[#00000000] w-72 h-screen md:h-auto left-0 md:w-auto md:py-0 py-10 text-center md:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
+                class="flex flex-col md:flex-row duration-500 py-10 md:flex z-[1] md:z-auto absolute md:static bg-gradient-to-t from-[#0044bb] via-[#0044bb] to-[#063355] md:bg-gradient-to-t md:from-[#00000000] w-72 h-screen md:h-auto left-0 md:w-auto md:py-0 py-10 text-center md:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
                 id="link"
               >
               <div class="text-[#fff] blocked md:hidden flex justify-between items-center">
@@ -213,10 +213,92 @@
         </div>
       </div>
 
+      <!-- clients logos -->
+      <div class="flex flex-col bg-gradient-to-t from-slate-100 to-slate-400">
+        <h1
+          class="text-4xl w-full text-center pt-24"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
+          Success Partners
+        </h1>
+        <div
+          x-data="{}"
+          x-init="$nextTick(() => {
+                        let ul = $refs.logos;
+                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                        ul.nextSibling.setAttribute('aria-hidden', 'true');
+                    })"
+          class="w-full py-2 md:py-4 inline-flex flex-nowrap overflow-hidden"
+        >
+          <ul
+            x-ref="logos"
+            class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+          >
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/aec23sau-cityscape-global-logo-english-fw.svg"
+                alt="Facebook"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/affiliateLogo.png"
+                alt="Disney"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/NWC-Logo.svg"
+                alt="Airbnb"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/STC-01.svg.png"
+                alt="Apple"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/aec23sau-cityscape-global-logo-english-fw.svg"
+                alt="Facebook"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/affiliateLogo.png"
+                alt="Disney"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/NWC-Logo.svg"
+                alt="Airbnb"
+              />
+            </li>
+            <li class="p-16">
+              <img
+                class="w-52 md:w-72"
+                src="./Assets/clients-logo/STC-01.svg.png"
+                alt="Apple"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <!-- {/* kings say */} -->
 
       <div
-        class="p-4 md:px-28 md:py-10 w-full flex justify-center items-center"
+        class="p-4 md:px-28 md:py-10 w-full flex justify-center bg-slate-100 items-center"
       >
         <div
           class="gap-5 grid grid-cols-1 sm:grid-cols-2 justify-center items-center py-5"
@@ -250,7 +332,7 @@
         </div>
       </div>
 
-      <div class="bg-slate-100">
+      <div class="bg-slate-200">
         <div
           class="p-4 md:px-28 md:py-10 w-full flex justify-center items-center"
           data-aos="fade-up"
@@ -905,87 +987,7 @@
         <!-- Container for demo purpose -->
       </div>
 
-      <!-- clients logos -->
-      <div class="flex flex-col bg-gradient-to-t from-slate-400 to-white">
-        <h1
-          class="text-4xl w-full text-center pt-24"
-          data-aos="flip-left"
-          data-aos-duration="1000"
-        >
-          Success Partners
-        </h1>
-        <div
-          x-data="{}"
-          x-init="$nextTick(() => {
-                        let ul = $refs.logos;
-                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
-                        ul.nextSibling.setAttribute('aria-hidden', 'true');
-                    })"
-          class="w-full py-2 md:py-4 inline-flex flex-nowrap overflow-hidden"
-        >
-          <ul
-            x-ref="logos"
-            class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
-          >
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/aec23sau-cityscape-global-logo-english-fw.svg"
-                alt="Facebook"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/affiliateLogo.png"
-                alt="Disney"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/NWC-Logo.svg"
-                alt="Airbnb"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/STC-01.svg.png"
-                alt="Apple"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/aec23sau-cityscape-global-logo-english-fw.svg"
-                alt="Facebook"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/affiliateLogo.png"
-                alt="Disney"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/NWC-Logo.svg"
-                alt="Airbnb"
-              />
-            </li>
-            <li class="p-16">
-              <img
-                class="w-52 md:w-72"
-                src="./Assets/clients-logo/STC-01.svg.png"
-                alt="Apple"
-              />
-            </li>
-          </ul>
-        </div>
-      </div>
+      
 
       <!-- {/* <Footer /> */} -->
       <footer class="bg-[url('Assets/images/footer.jpg')] bg-cover">
