@@ -841,3 +841,11 @@ body {
 .icons-fill{
   fill: #fff;
 }
+
+
+.contact-bg{
+  background-image: url(../Assets/images/contactus-01.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
