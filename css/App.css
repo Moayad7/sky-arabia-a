@@ -420,7 +420,13 @@ body {
     width: 100%;
   }
 }
-
+.proj-title {
+  display: flex;
+  background: #0044bb55;
+    justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 @media screen and (min-width:768px) {
 
@@ -428,6 +434,7 @@ body {
     opacity: 0;
     bottom: -10px;
     transition: all 0.3s ease-in 0s;
+    
   }
 
   .proj-card:hover {
