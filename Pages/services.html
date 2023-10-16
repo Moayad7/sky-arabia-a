@@ -8,7 +8,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/App.css" />
@@ -60,7 +60,7 @@
               class="flex flex-col lg:flex-row duration-500 py-10 lg:flex z-[1] lg:z-auto absolute lg:static bg-gradient-to-t from-[#0044bb] via-[#0044bb] to-[#063355] lg:bg-gradient-to-t lg:from-[#00000000] w-72 h-screen lg:h-auto left-0 lg:w-auto lg:py-0 py-10 text-center lg:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
               id="link"
             ><div
-            class="text-[#fff] blocked md:hidden flex justify-between items-center"
+            class="text-[#fff] blocked lg:hidden flex justify-between items-center"
           >
             <span class="text-3xl cursor-pointer mx-2">
               <ion-icon
@@ -95,12 +95,12 @@
                 >
                   <a
                     class="rounded-t text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                    href="services/civil-construction.html"
+                    href="services/Civil Constructions works.html"
                     >Civil Contractions</a
                   >
                   <a
                     class="text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                    href="services/steel-fabrication.html"
+                    href="services/Steel Fabrication.html"
                     >Steel Fabrication</a
                   >
                   <a
@@ -110,7 +110,7 @@
                   >
                   <a
                     class="rounded-b text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                    href="services/mechanical-and-electrical-services.html"
+                    href="services/Mechanical and Electrical Services.html"
                     >Mechanical and Electrical Services</a
                   >
                 </ul>
@@ -243,158 +243,14 @@
         </div>
       </div>
 
-      <!-- <div class="">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <ServicesItem
-            bg="service1-bg duration-300"
-            title="General Contracting"
-            url="/civil-construction"
-          />
-          <ServicesItem
-            bg="service2-bg duration-300"
-            title="Steel Fabrication"
-            url="/steal-fabrication"
-          />
-          <ServicesItem
-            bg="service3-bg duration-300"
-            title="Transportation"
-            url="/transportation"
-          />
-          <ServicesItem
-            bg="service4-bg duration-300"
-            title="Mechanical and Electrical Services"
-            url="/mechanical&electrical"
-          />
-        </div>
-      </div> -->
-
+     </div>
       <div>
+        
         <div
-          class="text-center p-8 lg:p-0 flex flex-col lg:flex-row gap-8 md:gap-0 items-center"
+          class="text-center p-8 lg:p-0 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-0 items-center"
+          id="services-list"
         >
-          <div
-            class="w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            <div
-              class="service-card-content bg-[url('../Assets/images/services1.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
-            >
-              <div
-                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#0044bbaa] duration-500"
-              >
-                <span
-                  class="flex flex-col justify-center px-4 lg:px-8 items-center"
-                >
-                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2">
-                    Civil Contractions
-                  </strong>
-
-                  <div class="w-full card-btn cursor-pointer pt-4 duration-500">
-                    <a
-                      href="./services/civil-construction.html"
-                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#0044bb] p-2 duration-500"
-                    >
-                      Read more..
-                    </a>
-                  </div></span
-                >
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            <div
-              class="service-card-content bg-[url('../Assets/images/services2.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
-            >
-              <div
-                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#0044bbaa] duration-500"
-              >
-                <span
-                  class="flex flex-col justify-center px-4 lg:px-8 items-center"
-                >
-                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2">
-                    Steel Fabrication
-                  </strong>
-
-                  <div class="w-full card-btn cursor-pointer pt-4 duration-500">
-                    <a
-                      href="services/steel-fabrication.html"
-                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#0044bb] p-2 duration-500"
-                    >
-                      Read more..
-                    </a>
-                  </div></span
-                >
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            <div
-              class="service-card-content bg-[url('../Assets/images/services3.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
-            >
-              <div
-                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#0044bbaa] duration-500"
-              >
-                <span
-                  class="flex flex-col justify-center px-4 lg:px-8 items-center"
-                >
-                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2"
-                    >Rent and Transportation
-                  </strong>
-
-                  <div class="w-full card-btn cursor-pointer pt-4 duration-500">
-                    <a
-                      href="services/Rent and Transportation.html"
-                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#0044bb] p-2 duration-500"
-                    >
-                      Read more..
-                    </a>
-                  </div></span
-                >
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="w-full h-80 bg-slate-300 lg:col-span-2 md:col-span-2 col-span-1"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            <div
-              class="service-card-content bg-[url('../Assets/images/services4.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
-            >
-              <div
-                class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#0044bbaa] duration-500"
-              >
-                <span
-                  class="flex flex-col justify-center px-4 lg:px-8 items-center"
-                >
-                  <strong class="text-xl lg:text-3xl text-[#fff] pb-2">
-                    Mechanical and Electrical Services
-                  </strong>
-
-                  <div class="w-full card-btn cursor-pointer pt-4 duration-500">
-                    <a
-                      href="services/mechanical-and-electrical-services.html"
-                      class="w-full text-[#fff] bg-[#058ecc00] border-2 hidden-btn hover:bg-[#fff] hover:text-[#0044bb] p-2 duration-500"
-                    >
-                      Read more..
-                    </a>
-                  </div></span
-                >
-              </div>
-            </div>
-          </div>
+        <!-- SERVICES API DATA -->
         </div>
       </div>
 
@@ -447,10 +303,9 @@
                   />
                   <div
                     class=" flex gap-5 py-6 justify-center"
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
+                    
                   >
-                    <a href="https://www.facebook.com/sky.alarabia/" target="_blank" class="icons-fill"><svg
+                    <a id="facebook" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         clip-rule: evenodd;
@@ -470,7 +325,7 @@
                       />
                     </svg></a>
 
-                    <a href="https://www.instagram.com/skyalarabia/" target="_blank" class="icons-fill"><svg
+                    <a id="instagram" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -503,7 +358,7 @@
                     </svg>
                   </a>
 
-                    <a href="https://twitter.com/skyalarabia?lang=ar-x-fm" target="_blank" class="icons-fill"><svg
+                    <a id="twitter" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -533,7 +388,7 @@
                     </svg>
                   </a>
 
-                    <a href="" target="_blank" class="icons-fill"><svg
+                    <a id="snapchat" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -555,7 +410,7 @@
                     </svg>
                     </a>
 
-                    <a href="" target="_blank"  class="icons-fill"><svg
+                    <a id="linkedin" target="_blank"  class="icons-fill"><svg
                       enable-background="new 0 0 56.693 56.693"
                       height="30px"
                       id="Layer_1"
@@ -619,12 +474,12 @@
             >
               <h3 class="text-blue-50 text-4xl pb-3 font-black">Services</h3>
               <a
-                href="./services/civil-construction.html"
+                href="./services/Civil Constructions works.html"
                 class="text-lg text-[#eee] no-underline hover:text-slate-50"
                 >Civil Constructions</a
               >
               <a
-                href="./services/steel-fabrication.html"
+                href="./services/Steel Fabrication.html"
                 class="text-lg text-[#eee] no-underline hover:text-slate-50"
                 >Steel Fabrication</a
               >
@@ -634,7 +489,7 @@
                 >Rent and Transportation</a
               >
               <a
-                href="./services/mechanical-and-electrical-services.html"
+                href="./services/Mechanical and Electrical Services.html"
                 class="text-lg text-[#eee] no-underline hover:text-slate-50"
                 >Mechanical and Electrical Services</a
               >
@@ -709,7 +564,7 @@
     </footer>
 
     <!-- whatsapp button -->
-      <a href="https://api.whatsapp.com/send?phone=009660175230123" target="_blank" class="top">
+      <a id="whatsapp" target="_blank" class="top">
       <svg
         height="40px"
         style="enable-background: new 0 0 512 512"
@@ -750,5 +605,8 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/services-data.js"></script>
+    <script src="../js/contact-api.js"></script>
+
   </body>
 </html>

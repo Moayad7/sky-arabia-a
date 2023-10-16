@@ -8,7 +8,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/App.css" />
@@ -124,12 +124,12 @@
                   >
                     <a
                       class="rounded-t text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                      href="Pages/services/civil-construction.html"
+                      href="Pages/services/Civil Constructions works.html"
                       >Civil Contractions</a
                     >
                     <a
                       class="text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                      href="Pages/services/steel-fabrication.html"
+                      href="Pages/services/Steel Fabrication.html"
                       >Steel Fabrication</a
                     >
                     <a
@@ -139,7 +139,7 @@
                     >
                     <a
                       class="rounded-b text-[#fff] bg-[#0044bb] hover:text-[#0044bb] hover:bg-[#fff] py-2 px-4 block whitespace-no-wrap"
-                      href="Pages/services/mechanical-and-electrical-services.html"
+                      href="Pages/services/Mechanical and Electrical Services.html"
                       >Mechanical and Electrical Services</a
                     >
                   </ul>
@@ -193,8 +193,8 @@
         
       </nav>
 
-      <div class="">
-        <div class="background h-screen">
+      <div class="" id="hero">
+        <!-- <div class="background h-screen">
           <div class="w-100 h-full flex flex-col bg-[#0661ff85]">
             <div
               class="container lg:px-16 mx-auto w-100 h-full flex flex-col justify-center items-center lg:justify-start lg:items-start px-8 lg:ps-64 lg:pt-96 lg:text-start"
@@ -217,7 +217,7 @@
               </h1>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Success Partners -->
@@ -486,9 +486,10 @@
       </div>
 
       <!-- {/* services */} -->
-      <div class="bg-slate-50">
+      <div class="bg-slate-50" >
         <div
-          class="flex justify-center bg-[url('Assets/images/services-bg-02.webp')] bg-cover p-4 py-16"
+          class="flex justify-center bg-[url('Assets/images/services-bg-02.webp')] bg-cover p-4 py-16 "
+          
         >
           <div class="flex flex-col">
             <h1
@@ -499,8 +500,8 @@
               Services
             </h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center">
-              <div
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center justify-center" id="services-list">
+              <!-- <div
                 class="service1 h-80 lg:h-96 w-full"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -538,7 +539,7 @@
                       of integrity at all levels of project.
                     </div>
                     <div class="card-btn cursor-pointer pt-4">
-                      <a href="./Pages/services/civil-construction.html"
+                      <a href="./Pages/services/Civil Constructions works.html"
                         class="border border-slate-700 bg-[#0661ff] hover:bg-[#fff] hover:text-[#0044bb] rounded p-2 duration-300"
                       >
                         Read more..
@@ -603,7 +604,7 @@
                       cater clients under one roof.
                     </div>
                     <div class="card-btn cursor-pointer pt-4">
-                      <a href="./Pages/services/steel-fabrication.html"
+                      <a href="./Pages/services/Steel Fabrication.html"
                         class="border border-slate-700 bg-[#0661ff] hover:bg-[#fff] hover:text-[#0044bb] rounded p-2 duration-300"
                       >
                         Read more..
@@ -806,14 +807,14 @@
                       electrical to commercial and industrial customers.
                     </div>
                     <div class="card-btn cursor-pointer pt-4">
-                      <a href="./Pages/services/mechanical-and-electrical-services.html"
+                      <a href="./Pages/services/Mechanical and Electrical Services.html"
                         class="border border-slate-700 bg-[#0661ff] hover:bg-[#fff] hover:text-[#0044bb] rounded p-2 duration-300"
                       >
                         Read more..
                       </a>
                     </div></span
                   >
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -827,8 +828,9 @@
         </div>
         <div
           class="p-4 grid place-content-center w-full lg:w-auto lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-10"
+          id="projects-list"
         >
-          <div
+          <!-- <div
             class="proj-card h-96 w-full lg:w-[500px]"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -879,14 +881,14 @@
                 Ministry of Interior Police
               </h3>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="py-5 w-full flex justify-center">
-          <button
+          <a href="./Pages/projects.html"
             class="text-[#fff] bg-[#0661ff] text-2xl text-center border-2 px-8 py-4 hover:text-[#fff] hover:bg-[#0044bb] duration-300"
           >
             See All Projects
-          </button>
+          </a>
         </div>
       </div>
 
@@ -981,7 +983,7 @@
                 </button>
               </form>
             </div>
-            <div class="w-full h-full justify-center" data-aos="fade-up">
+            <div id="#" class="w-full h-full justify-center" data-aos="fade-up">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15212.979956860305!2d44.3467141!3d17.5910976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15fed9a5f4b40a9d%3A0x92d1806b7796bc93!2z2LPZg9in2Yog2KfZhNi52LHYqNmK2Kkg2YTZhNmF2YLYp9mI2YTYp9iq!5e0!3m2!1sar!2s!4v1696284825776!5m2!1sar!2s"
                 height="100%"
@@ -1020,10 +1022,9 @@
                     />
                     <div
                     class=" flex gap-5 py-6 justify-center"
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
+                    
                   >
-                    <a href="https://www.facebook.com/sky.alarabia/" target="_blank" class="icons-fill"><svg
+                    <a id="facebook" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         clip-rule: evenodd;
@@ -1037,13 +1038,14 @@
                       xmlns="http://www.w3.org/2000/svg"
                       xmlns:serif="http://www.serif.com/"
                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                      
                     >
                       <path
                         d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z"
                       />
                     </svg></a>
 
-                    <a href="https://www.instagram.com/skyalarabia/" target="_blank" class="icons-fill"><svg
+                    <a id="instagram" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -1058,6 +1060,7 @@
                       xmlns="http://www.w3.org/2000/svg"
                       xmlns:serif="http://www.serif.com/"
                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                      
                     >
                       <g transform="matrix(1.01619,0,0,1.01619,44,43.8384)">
                         <path
@@ -1076,7 +1079,7 @@
                     </svg>
                   </a>
 
-                    <a href="https://twitter.com/skyalarabia?lang=ar-x-fm" target="_blank" class="icons-fill"><svg
+                    <a id="twitter" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -1106,7 +1109,7 @@
                     </svg>
                   </a>
 
-                    <a href="" target="_blank" class="icons-fill"><svg
+                    <a id="snapchat" target="_blank" class="icons-fill"><svg
                       height="30px"
                       style="
                         fill-rule: evenodd;
@@ -1128,7 +1131,7 @@
                     </svg>
                     </a>
 
-                    <a href="" target="_blank"  class="icons-fill"><svg
+                    <a id="linkedin" target="_blank"  class="icons-fill"><svg
                       enable-background="new 0 0 56.693 56.693"
                       height="30px"
                       id="Layer_1"
@@ -1192,12 +1195,12 @@
               >
                 <h3 class="text-blue-50 text-4xl pb-3 font-black">Services</h3>
                 <a
-                  href="./Pages/services/civil-construction.html"
+                  href="./Pages/services/Civil Constructions works.html"
                   class="text-lg text-[#eee] no-underline hover:text-slate-50"
                   >Civil Constructions</a
                 >
                 <a
-                  href="./Pages/services/steel-fabrication.html"
+                  href="./Pages/services/Steel Fabrication.html"
                   class="text-lg text-[#eee] no-underline hover:text-slate-50"
                   >Steel Fabrication</a
                 >
@@ -1207,7 +1210,7 @@
                   >Rent and Transportation</a
                 >
                 <a
-                  href="./Pages/services/mechanical-and-electrical-services.html"
+                  href="./Pages/services/Mechanical and Electrical Services.html"
                   class="text-lg text-[#eee] no-underline hover:text-slate-50"
                   >Mechanical and Electrical Services</a
                 >
@@ -1283,7 +1286,7 @@
         </div>
       </footer>
       <!-- whatsapp button -->
-      <a href="https://api.whatsapp.com/send?phone=009660175230123" target="_blank" class="top">
+      <a  id="whatsapp" target="_blank" class="top">
         <svg
           height="40px"
           style="enable-background: new 0 0 512 512"
@@ -1316,6 +1319,7 @@
     </div>
 
     <script></script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       type="module"
@@ -1328,5 +1332,7 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/home-data.js"></script>
+    <script src="js/contact-api.js"></script>
   </body>
 </html>
