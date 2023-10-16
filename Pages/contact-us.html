@@ -5,24 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="icon" type="image/x-icon" href="../Assets/favicon-04.svg">
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-     
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="../css/unpkg.com_aos@2.3.1_dist_aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/App.css" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-
     <title>Contact us - Sky Al-arabia</title>
   </head>
   <body class="">
@@ -45,7 +30,7 @@
                 data-aos-duration="1000"
               ></ion-icon>
             </span>
-          </div><!-- Navbar logo -->
+          </div>
           <div
               class="text-[#fff] absolute right-[-40px]  lg:relative lg:left-[0%] w-28 lg:w-36"
             >
@@ -56,7 +41,6 @@
               
             </div>
 
-          <!-- Navbar links -->
           <div class="text-[#fff] mx-auto">
             <ul
               class="flex flex-col lg:flex-row duration-500 py-10 lg:flex z-[1] lg:z-auto absolute lg:static bg-gradient-to-t from-[#0044bb] via-[#0044bb] to-[#063355] lg:bg-gradient-to-t lg:from-[#00000000] w-72 h-screen lg:h-auto left-0 lg:w-auto lg:py-0 py-10 text-center lg:opacity-100 top-[0] left-[-1080px] transition-all ease-in mx-auto whitespace-nowrap gap-x-8"
@@ -131,13 +115,11 @@
               >
             </ul>
           </div>
-       <!-- navbar logo -->
+       
        <div
        class=" flex justify-between absolute items-center left-[34.5%] sm:left-[43%] md:relative md:left-[0%] w-32 md:w-48"
      >
-       
-    
-     <a
+       <a
      href="../index.html"
      class="text-white text-xl font-bold"
      id="logo"
@@ -168,7 +150,6 @@
         <div
           class="w-full h-full flex flex-col justify-center items-center bg-slate"
         >
-          <!-- {/* <div class="w-full h-full opacity-75 bg-slate-700 "></div> */} -->
           <div
             class="relative w-full h-full flex flex-col justify-between items-center text-start"
           >
@@ -264,33 +245,6 @@
           </div>
         </div>
       </div>
-
-      
-
-
-      <!-- <div class="flex justify-center bg-slate-100 px-12 py-12 lg:px-80 lg:py-20 container" >
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <div class="md:px-8">
-                <div data-aos="fade-up">
-                    <h1 class=" font-black text-[#063355] mb-4 ">Najran – Head Office</h1>
-                    
-                    <div class="flex "><span class="pe-2"><?xml version="1.0" ?><svg height="30" viewBox="0 0 48 48" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path d="M0 0h48v48h-48z" fill="none"/></svg></span><h1 class=" text-[#0044bb]"> Ibn Haiyan Road - Najran - Industrial Area </h1></div>
-                    <div class="flex "><span class="pe-2"><svg width="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="1" id="_1"><path d="M348.73,450.06a198.63,198.63,0,0,1-46.4-5.85c-52.43-12.65-106.42-44.74-152-90.36s-77.71-99.62-90.36-152C46.65,146.75,56.15,99.61,86.69,69.07l8.72-8.72a42.2,42.2,0,0,1,59.62,0l50.11,50.1a42.18,42.18,0,0,1,0,59.62l-29.6,29.59c14.19,24.9,33.49,49.82,56.3,72.63s47.75,42.12,72.64,56.31L334.07,299a42.15,42.15,0,0,1,59.62,0l50.1,50.1a42.16,42.16,0,0,1,0,59.61l-8.73,8.72C413.53,439,383.73,450.06,348.73,450.06ZM125.22,78a12,12,0,0,0-8.59,3.56l-8.73,8.72c-22.87,22.87-29.55,60-18.81,104.49,11.37,47.13,40.64,96.1,82.41,137.86s90.73,71,137.87,82.41c44.5,10.74,81.61,4.06,104.48-18.81l8.72-8.72a12.16,12.16,0,0,0,0-17.19l-50.09-50.1a12.16,12.16,0,0,0-17.19,0l-37.51,37.51a15,15,0,0,1-17.5,2.72c-30.75-15.9-61.75-39.05-89.65-66.95s-51-58.88-66.94-89.63a15,15,0,0,1,2.71-17.5l37.52-37.51a12.16,12.16,0,0,0,0-17.19l-50.1-50.11A12.07,12.07,0,0,0,125.22,78Z"/><path d="M364.75,269.73a15,15,0,0,1-15-15,99.37,99.37,0,0,0-99.25-99.26,15,15,0,0,1,0-30c71.27,0,129.25,58,129.25,129.26A15,15,0,0,1,364.75,269.73Z"/><path d="M428.15,269.73a15,15,0,0,1-15-15c0-89.69-73-162.66-162.65-162.66a15,15,0,0,1,0-30c106.23,0,192.65,86.43,192.65,192.66A15,15,0,0,1,428.15,269.73Z"/></g></svg></span><h1 class=" text-[#0044bb]"> (+966) 017 - 523 - 0123</h1></div>
-                    <div class="flex "><span class="pe-2"><svg width="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="1" id="_1"><path d="M348.73,450.06a198.63,198.63,0,0,1-46.4-5.85c-52.43-12.65-106.42-44.74-152-90.36s-77.71-99.62-90.36-152C46.65,146.75,56.15,99.61,86.69,69.07l8.72-8.72a42.2,42.2,0,0,1,59.62,0l50.11,50.1a42.18,42.18,0,0,1,0,59.62l-29.6,29.59c14.19,24.9,33.49,49.82,56.3,72.63s47.75,42.12,72.64,56.31L334.07,299a42.15,42.15,0,0,1,59.62,0l50.1,50.1a42.16,42.16,0,0,1,0,59.61l-8.73,8.72C413.53,439,383.73,450.06,348.73,450.06ZM125.22,78a12,12,0,0,0-8.59,3.56l-8.73,8.72c-22.87,22.87-29.55,60-18.81,104.49,11.37,47.13,40.64,96.1,82.41,137.86s90.73,71,137.87,82.41c44.5,10.74,81.61,4.06,104.48-18.81l8.72-8.72a12.16,12.16,0,0,0,0-17.19l-50.09-50.1a12.16,12.16,0,0,0-17.19,0l-37.51,37.51a15,15,0,0,1-17.5,2.72c-30.75-15.9-61.75-39.05-89.65-66.95s-51-58.88-66.94-89.63a15,15,0,0,1,2.71-17.5l37.52-37.51a12.16,12.16,0,0,0,0-17.19l-50.1-50.11A12.07,12.07,0,0,0,125.22,78Z"/><path d="M364.75,269.73a15,15,0,0,1-15-15,99.37,99.37,0,0,0-99.25-99.26,15,15,0,0,1,0-30c71.27,0,129.25,58,129.25,129.26A15,15,0,0,1,364.75,269.73Z"/><path d="M428.15,269.73a15,15,0,0,1-15-15c0-89.69-73-162.66-162.65-162.66a15,15,0,0,1,0-30c106.23,0,192.65,86.43,192.65,192.66A15,15,0,0,1,428.15,269.73Z"/></g></svg></span><h1 class=" text-[#0044bb]"> (+966) 050-572-6627</h1></div>
-                    </div>
-            </div>
-        
-            <div class="md:px-8">
-              <div data-aos="fade-up">
-                  <h1 class=" font-black text-[#063355] mb-4 ">Najran – Head Office</h1>
-                  
-                  <div class="flex "><span class="pe-2"><?xml version="1.0" ?><svg height="30" viewBox="0 0 48 48" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path d="M0 0h48v48h-48z" fill="none"/></svg></span><h1 class=" text-[#0044bb]"> King Fahad Road, Dammam, KSA </h1></div>
-                  <div class="flex "><span class="pe-2"><svg width="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="1" id="_1"><path d="M348.73,450.06a198.63,198.63,0,0,1-46.4-5.85c-52.43-12.65-106.42-44.74-152-90.36s-77.71-99.62-90.36-152C46.65,146.75,56.15,99.61,86.69,69.07l8.72-8.72a42.2,42.2,0,0,1,59.62,0l50.11,50.1a42.18,42.18,0,0,1,0,59.62l-29.6,29.59c14.19,24.9,33.49,49.82,56.3,72.63s47.75,42.12,72.64,56.31L334.07,299a42.15,42.15,0,0,1,59.62,0l50.1,50.1a42.16,42.16,0,0,1,0,59.61l-8.73,8.72C413.53,439,383.73,450.06,348.73,450.06ZM125.22,78a12,12,0,0,0-8.59,3.56l-8.73,8.72c-22.87,22.87-29.55,60-18.81,104.49,11.37,47.13,40.64,96.1,82.41,137.86s90.73,71,137.87,82.41c44.5,10.74,81.61,4.06,104.48-18.81l8.72-8.72a12.16,12.16,0,0,0,0-17.19l-50.09-50.1a12.16,12.16,0,0,0-17.19,0l-37.51,37.51a15,15,0,0,1-17.5,2.72c-30.75-15.9-61.75-39.05-89.65-66.95s-51-58.88-66.94-89.63a15,15,0,0,1,2.71-17.5l37.52-37.51a12.16,12.16,0,0,0,0-17.19l-50.1-50.11A12.07,12.07,0,0,0,125.22,78Z"/><path d="M364.75,269.73a15,15,0,0,1-15-15,99.37,99.37,0,0,0-99.25-99.26,15,15,0,0,1,0-30c71.27,0,129.25,58,129.25,129.26A15,15,0,0,1,364.75,269.73Z"/><path d="M428.15,269.73a15,15,0,0,1-15-15c0-89.69-73-162.66-162.65-162.66a15,15,0,0,1,0-30c106.23,0,192.65,86.43,192.65,192.66A15,15,0,0,1,428.15,269.73Z"/></g></svg></span><h1 class=" text-[#0044bb]"> (+966) 013-821-0276</h1></div>
-                  <div class="flex "><span class="pe-2"><svg width="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="1" id="_1"><path d="M348.73,450.06a198.63,198.63,0,0,1-46.4-5.85c-52.43-12.65-106.42-44.74-152-90.36s-77.71-99.62-90.36-152C46.65,146.75,56.15,99.61,86.69,69.07l8.72-8.72a42.2,42.2,0,0,1,59.62,0l50.11,50.1a42.18,42.18,0,0,1,0,59.62l-29.6,29.59c14.19,24.9,33.49,49.82,56.3,72.63s47.75,42.12,72.64,56.31L334.07,299a42.15,42.15,0,0,1,59.62,0l50.1,50.1a42.16,42.16,0,0,1,0,59.61l-8.73,8.72C413.53,439,383.73,450.06,348.73,450.06ZM125.22,78a12,12,0,0,0-8.59,3.56l-8.73,8.72c-22.87,22.87-29.55,60-18.81,104.49,11.37,47.13,40.64,96.1,82.41,137.86s90.73,71,137.87,82.41c44.5,10.74,81.61,4.06,104.48-18.81l8.72-8.72a12.16,12.16,0,0,0,0-17.19l-50.09-50.1a12.16,12.16,0,0,0-17.19,0l-37.51,37.51a15,15,0,0,1-17.5,2.72c-30.75-15.9-61.75-39.05-89.65-66.95s-51-58.88-66.94-89.63a15,15,0,0,1,2.71-17.5l37.52-37.51a12.16,12.16,0,0,0,0-17.19l-50.1-50.11A12.07,12.07,0,0,0,125.22,78Z"/><path d="M364.75,269.73a15,15,0,0,1-15-15,99.37,99.37,0,0,0-99.25-99.26,15,15,0,0,1,0-30c71.27,0,129.25,58,129.25,129.26A15,15,0,0,1,364.75,269.73Z"/><path d="M428.15,269.73a15,15,0,0,1-15-15c0-89.69-73-162.66-162.65-162.66a15,15,0,0,1,0-30c106.23,0,192.65,86.43,192.65,192.66A15,15,0,0,1,428.15,269.73Z"/></g></svg></span><h1 class=" text-[#0044bb]"> (+966) 013-821-1938</h1></div>
-                  </div>
-          </div>
-</div>
-</div> -->
       
       <div class="w-full h-96 justify-center" data-aos="fade-up">
         <iframe
@@ -305,66 +259,11 @@
 
       
 
-<!-- form -->
-
-<!-- <div class="flex flex-col justify-center w-full items-center pb-5 pt-16  bg-[url('../Assets/images/contact-01.webp')] bg-cover text-center">
-    <div class="text-xl text-[#0044bb] md:text-3xl" data-aos="flip-left"
-    data-aos-duration="1000">Get in Touch:</div>
-    <div class=" my-4 w-full px-8 md:px-40 lg:px-96">
-      <section class="mb-4 text-center shadow-xl bg-[#eee9] py-4 md:p-8 rounded">
-        <div class="mx-5  md:px-3">
-         
-          <form action="#" method="#" data-aos="fade-down" data-aos-duration="800">
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <input
-              name="name"
-                type="text"
-                class="border-b-2 border-[#0044bb] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
-                id="exampleInput90"
-                placeholder="Name"
-              />
-            </div>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <input
-              name="email"
-                type="email"
-                class="border-b-2 border-[#0044bb] block min-h-[auto] w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
-                id="exampleInput91"
-                placeholder="Email address"
-              />
-            </div>
-            <div class="relative mb-6" data-te-input-wrapper-init>
-              <textarea
-              name="message"
-                class="border-b-2 border-[#0044bb] block h-60 w-full border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Your message"
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              class=" inline-block w-full bg-[#0044bb] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
-            >
-              Send
-            </button>
-          </form>
-        </div>
-        
-      </section>
-    </div>
-  </div> -->
-
-
-
 
     </div>
 
     <!-- {/* <Footer /> */} -->
-    <footer class="bg-[url('../Assets/images/footer.jpg')] bg-cover">
+    <footer class="bg-[url('../Assets/images/footer.webp')] bg-cover">
       <div
           class="bg-gradient-to-t from-[#0044bbbb] to-[#06335599] py-20 px-10"
         >

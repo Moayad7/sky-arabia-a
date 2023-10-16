@@ -275,7 +275,7 @@ function addDataToPage() {
     <div class="pb-0 lg:pt-16">
     <div class="grid justify-center w-full ">
       <img
-        src="../../Assets/images/services1.jpg"
+        src="../../Assets/images/services1.webp"
         alt=""
         class="hover:opacity-90 duration-300 w-full shadow"
       />

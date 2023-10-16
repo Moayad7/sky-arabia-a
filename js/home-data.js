@@ -95,9 +95,7 @@ function displayServices() {
         const serviceItem = document.createElement("div");
       serviceItem.className =
         `service${i+1} h-80 lg:h-96 w-full`;
-      serviceItem.innerHTML = `
-    
-      <div class="service-card lg:w-[500px] h-full bg-[#063355cc]">
+      serviceItem.innerHTML = ` <div class="service-card lg:w-[500px] h-full bg-[#063355cc]">
        
         <strong class="card-title"> ${service.title} </strong>
 

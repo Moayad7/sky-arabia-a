@@ -31,7 +31,7 @@ function displayServices() {
        <div
          class="service-card-content bg-[url('../Assets/images/services${
            i + 1
-         }.jpg')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
+         }.webp')] bg-cover bg-center hover:bg-left duration-500 h-full w-full"
        >
          <div
            class="w-full h-full flex justify-center items-center relative bg-[#000000aa] hover:lg:bg-[#0044bbaa] duration-500"

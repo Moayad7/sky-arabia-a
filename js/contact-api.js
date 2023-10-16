@@ -17,8 +17,6 @@ async function fetchContactsData() {
     }
   }
 
-
-    
 //   show projects data
 function displayContacts() {
     const whatsapp = document.getElementById("whatsapp");
@@ -34,9 +32,7 @@ function displayContacts() {
     twitter.setAttribute("href", `${contacts.twitter}`);
     snapchat.setAttribute("href", `${contacts.snapchat}`);
     linkedin.setAttribute("href", `${contacts.linkedin}`);
-    map.setAttribute("data-aos", `fade-up`);
-    
-    map.innerHTML=`
+    map.setAttribute("data-aos", `fade-up`);    map.innerHTML=`
     <iframe
                 src="${contacts.maps}"
                 height="100%"
