@@ -43,13 +43,14 @@ async function fetchServicesData() {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
-      console.log("Data:", data);
+      console.log("projects:", data);
       projects = data;
       displayProjects();
     } catch (error) {
       console.error("There was a problem with the fetch operation:", error);
     }
   }
+  
 
   
   // Home data show
