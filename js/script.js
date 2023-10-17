@@ -69,7 +69,6 @@ function Menu() {
   item.name === "close"
     ? list.classList.add("left-[0px]")
     : list.classList.remove("left-[0px]");
-  console.log("toggle");
 }
 function Menu2() {
   let item = toggle;

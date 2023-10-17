@@ -1,4 +1,3 @@
-const array = [1, 2, 3, 4, 5];
 // Home data fetch
 
 async function homeFetchData() {
@@ -16,7 +15,7 @@ async function homeFetchData() {
     }
   }
   
-
+  homeFetchData();
 
 
 
@@ -150,6 +149,5 @@ function displayProjects() {
   
   
 
-  fetchProjectsData();
-  fetchServicesData();
-  homeFetchData();
+  // fetchProjectsData();
+  // fetchServicesData();
