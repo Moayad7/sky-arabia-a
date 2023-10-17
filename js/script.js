@@ -116,18 +116,3 @@ let contacts;
 const services_url = "https://dash.skyalarabia.com/api/service";
 const projects_url = "https://dash.skyalarabia.com/api/project";
 const home_url = "https://dash.skyalarabia.com/api/slide";
-
-
-
-
-
-window.addEventListener('scroll', function() {
-  var lazyFrames = document.getElementsByClassName('lazy-iframe');
-  for (var i = 0; i < lazyFrames.length; i++) {
-    var frame = lazyFrames[i];
-    var frameRect = frame.getBoundingClientRect();
-    if (frameRect.top < window.innerHeight && frameRect.bottom >= 0 && !frame.getAttribute('src')) {
-      frame.setAttribute('src', frame.getAttribute('data-src'));
-    }
-  }
-});
