@@ -81,10 +81,10 @@ window.addEventListener("load", () => {
     document
       .querySelector(".spinnerContainer")
       .classList.remove("loader1--visible");
-  }, 1700);
+  },800);
   this.setTimeout(() => {
     document.querySelector(".spinnerContainer").classList.add("hidden");
-  }, 2700);
+  }, 1300);
 });
 
 tailwind.config = {
