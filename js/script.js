@@ -44,7 +44,7 @@ function scrollFunction() {
 logo2.classList.add("hidden");
 b2030.classList.add("hidden");
 
-// AOS.init();
+AOS.init();
 
 
 toggle.onclick = function () {
