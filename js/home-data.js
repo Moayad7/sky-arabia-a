@@ -34,6 +34,9 @@ async function fetchServicesData() {
     }
   }
 
+  fetchServicesData();
+
+
 
   async function fetchProjectsData() {
     try {
@@ -50,6 +53,9 @@ async function fetchServicesData() {
     }
   }
   
+
+    fetchProjectsData();
+
 
   
   // Home data show
@@ -149,5 +155,3 @@ function displayProjects() {
   
   
 
-  // fetchProjectsData();
-  // fetchServicesData();
